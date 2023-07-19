@@ -27,6 +27,7 @@ As a PhD student, I am always excited to collaborate with other researchers in t
 
 <!-- # 🔥 News -->
 # News
+- \[*06/2023*\] I graduated from City University of Hong Kong with First Class Honours.
 - \[*04/2023*\] I will server as a reviewer for NeurIPS 2023.
 
 <!-- # 📖 Educations -->

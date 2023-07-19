@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Catherine-R-He"
-description              : "PhD Student<br>Vislang Lab<br>Dept. of Computer Science<br>Rice University."
+description              : "PhD Student<br>Vislang Lab<br>Dept. of Computer Science<br>Rice University"
 repository               : "Catherine-R-He/Catherine-R-He.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Ruozhen (Catherine) He"
-  avatar           : "images/download.jpeg"
+  avatar           : "images/Selfie2023.JPG"
   bio              : "Rice University"
   location         : "Houston, TX"
   employer         :
