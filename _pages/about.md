@@ -19,7 +19,7 @@ redirect_from:
 
 I am an incoming computer science PhD student at [Vislang Lab](https://www.vislang.ai) in [Rice University](https://csweb.rice.edu/), advised by [Prof. Vicente Ordonez](http://vicenteordonez.com). Prior to this, I obtained a BSc degree (First Class Honours) from [City University of Hong Kong](https://www.cityu.edu.hk/), where I had the privilege of working with [Prof. Antoni B. Chan](https://www.cs.cityu.edu.hk/~abchan/) and [Prof. Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/).
 
-My primary research interests lie in computer vision, with a focus on efficient and effective algorithms with less or multimodal supervision. I am particularly interested in leveraging knowledge from neuroscience and cognitive psychology to develop concise, efficient, and interpretable algorithms with human-level Artificial General Intelligence capabilities in versatile tasks. 
+My primary research interests lie in computer vision, with a focus on efficient and effective algorithms under less or multimodal supervision. I am particularly interested in leveraging knowledge from neuroscience and cognitive psychology to develop concise, efficient, and interpretable algorithms with human-level Artificial General Intelligence capabilities in versatile tasks. 
 
 As a PhD student, I am always excited to collaborate with other researchers and explore new research fields. Do not hesitate to contact me if you are interested!
 <!-- Outside of academia, I enjoy listening to classical music and spending time outdoors, as these activities help me clear my mind and approach problems with a fresh perspective. -->
@@ -27,6 +27,7 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 <!-- # 🔥 News -->
 # News
+- \[*08/2023*\] I started my PhD study at VisLang Lab, Rice University.
 - \[*06/2023*\] I graduated from City University of Hong Kong with First Class Honours.
 - \[*04/2023*\] I will serve as a reviewer for NeurIPS 2023.
 
