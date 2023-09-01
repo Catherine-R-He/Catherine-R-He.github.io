@@ -27,6 +27,7 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 <!-- # 🔥 News -->
 # News
+- \[*08/2023*\] I will serve as a reviewer for ICLR 2024.
 - \[*08/2023*\] I started my PhD study at VisLang Lab, Rice University.
 - \[*08/2023*\] I won the first runner-up prize in the IEEE (Hong Kong) Computational Intelligence Chapter Final Year Project Competition 2022-2023.
 - \[*06/2023*\] I graduated from City University of Hong Kong with First Class Honours.
@@ -63,6 +64,7 @@ Thirty-Seventh AAAI Conference on Artificial Intelligence, AAAI-23. <font color=
 
 
 # Service
+- ICLR 2024, Reviewer
 - NeurIPS 2023, Reviewer
 
 <!-- # 💬 Invited Talks
