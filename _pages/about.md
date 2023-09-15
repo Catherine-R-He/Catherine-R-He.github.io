@@ -41,7 +41,7 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 <!-- # 📝 Publications  -->
 # Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI23-WCOD.png' alt="sym" width=150px></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI23-WCOD.png' alt="AAAI-23 Paper Weakly-Supervised Camouflaged Object Detection with Scribble Annotations" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Weakly-Supervised Camouflaged Object Detection with Scribble Annotations** [[Paper]](https://arxiv.org/abs/2207.14083) [[Code]](https://github.com/dddraxxx/Weakly-Supervised-Camouflaged-Object-Detection-with-Scribble-Annotations) [[Dataset]](https://github.com/dddraxxx/Weakly-Supervised-Camouflaged-Object-Detection-with-Scribble-Annotations)    
 **Ruozhen He**\*, Qihua Dong\*, Jiaying Lin, Rynson W.H. Lau (*Joint First Authors)  
@@ -49,7 +49,7 @@ Thirty-Seventh AAAI Conference on Artificial Intelligence, AAAI-23. <font color=
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI23-EfficientMirror.png' alt="sym" width=150px></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI23-EfficientMirror.png' alt="AAAI-23 Paper Efficient Mirror Detection via Multi-level Heterogeneous Learning" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Efficient Mirror Detection via Multi-level Heterogeneous Learning** [[Paper]](https://arxiv.org/abs/2211.15644) [[Code]](https://github.com/Catherine-R-He/HetNet)  
 **Ruozhen He**, Jiaying Lin, Rynson W.H. Lau  
