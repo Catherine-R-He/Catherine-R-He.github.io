@@ -27,7 +27,7 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 <!-- # 🔥 News -->
 # News
-- \[*11/2023*\] I will serve as a reviewer for CVPR 2024.
+- \[*10/2023*\] I will serve as a reviewer for CVPR 2024.
 - \[*08/2023*\] I will serve as a reviewer for ICLR 2024.
 - \[*08/2023*\] I started my PhD study at VisLang Lab, Rice University.
 - \[*08/2023*\] I won the first runner-up prize in the IEEE (Hong Kong) Computational Intelligence Chapter Final Year Project Competition 2022-2023.
