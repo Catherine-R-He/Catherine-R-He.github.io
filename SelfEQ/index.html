@@ -72,15 +72,12 @@
                <div class="row">
                 <div class="col s12">
                     <h5 class="center"><b>Overview</b></h5><br>
-                    <h6> Consider the example in Figure above, where a model is tasked with pointing to the location of the object <em>frisbee<\em> in this image. 
+                    <h6> Consider the example in Figure above, where a model is tasked with pointing to the location of the object <em>frisbee</em> in this image. 
                       The baseline model succeeds at finding the object but is unsuccessful at locating the object when prompted with the equivalent but more generic name <em>disc</em>. 
                       Regardless of the ability for the base model to find either of these, the visual explanations for these two prompts should be the same since the query refers to the very same object in both cases. 
                       Our work exploits this property by first generating paraphrases using a large language model and then proposing a weakly-supervised <b>Self</b>-consistency <b>EQ</b>uivalence Tuning (SelfEQ) objective 
                       that encourages consistent visual explanations between paraphrased input text pairs that refer to the same object or region in a given image.
                         <br><br>
-                    <p class="center">
-                        <img class="responsive-img" src="overview.png" width="80%">
-                    </p>
                 </div>
 
               <div class="col s2 m2 l2"></div>
