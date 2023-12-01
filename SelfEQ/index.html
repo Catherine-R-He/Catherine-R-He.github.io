@@ -42,7 +42,7 @@
                     <!-- <br>
                     <br>
                         Vision-and-language models trained to match images with text can be combined with visual explanation methods to point to the locations of specific objects in an image. 
-                        Our work shows that the localization --``grounding''-- abilities of these models can be further improved by finetuning for self-consistent visual explanations. 
+                        Our work shows that the localization --''grounding''-- abilities of these models can be further improved by finetuning for self-consistent visual explanations. 
                         We propose a strategy for augmenting existing text-image datasets with paraphrases using a large language model, and SelfEQ, a weakly-supervised strategy on visual explanation maps for paraphrases that encourages self-consistency. 
                         Specifically, for an input textual phrase, we attempt to generate a paraphrase and finetune the model so that the phrase and paraphrase map to the same region in the image.
                         We posit that this both expands the vocabulary that the model is able to handle, and improves the quality of the object locations highlighted by gradient-based visual explanation methods (e.g. GradCAM). 
@@ -72,10 +72,28 @@
                <div class="row">
                 <div class="col s12">
                     <h5 class="center"><b>Overview</b></h5><br>
-                    <h6>We finetune a large-scale pre-trained VL model using our <b class="blue-text text-darken-2">SyViC</b> dataset. Our proposed methodology includes domain adaptation and avoiding forgetting through parameterefficient finetuning (LoRA) and model averaging.
+                    <h6> Consider the example in Figure above, where a model is tasked with pointing to the location of the object <em>frisbee<\em> in this image. 
+                      The baseline model succeeds at finding the object but is unsuccessful at locating the object when prompted with the equivalent but more generic name <em>disc</em>. 
+                      Regardless of the ability for the base model to find either of these, the visual explanations for these two prompts should be the same since the query refers to the very same object in both cases. 
+                      Our work exploits this property by first generating paraphrases using a large language model and then proposing a weakly-supervised <b>Self</b>-consistency <b>EQ</b>uivalence Tuning (SelfEQ) objective 
+                      that encourages consistent visual explanations between paraphrased input text pairs that refer to the same object or region in a given image.
                         <br><br>
                     <p class="center">
                         <img class="responsive-img" src="overview.png" width="80%">
+                    </p>
+                </div>
+
+              <div class="col s2 m2 l2"></div>
+               <div class="row">
+                <div class="col s12">
+                    <h5 class="center"><b>Method</b></h5><br>
+                    <h6> Overview of our proposed weakly-supervised <strong>Self</strong>-consistency <strong>EQ</strong>uivalence tuning objective.
+                         We input image-text and image-paraphrase pairs &langle;V, T&rangle; and &langle;V, T<sup>e</sup>&rangle; to our base pre-trained vision-and-language model.
+                         We then obtain gradient-based visual explanations &langle;G, G<sup>e</sup>&rangle; and compute a similarity loss between them.
+                         We also define an overlapping region of interest mask and encourage the model to predict consistently high saliency scores within this mask for each input pair.
+                        <br><br>
+                    <p class="center">
+                        <img class="MethodDiagram" src="MethodDiagram.png" width="80%">
                     </p>
                 </div>
                 <div class="col s2 m2 l2"></div>
