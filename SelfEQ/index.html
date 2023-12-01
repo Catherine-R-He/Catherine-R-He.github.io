@@ -58,7 +58,7 @@
                     <div class="divider"></div>
                     <p>
                         Vision-and-language models trained to match images with text can be combined with visual explanation methods to point to the locations of specific objects in an image. 
-                        Our work shows that the localization --``grounding''-- abilities of these models can be further improved by finetuning for self-consistent visual explanations. 
+                        Our work shows that the localization --''grounding''-- abilities of these models can be further improved by finetuning for self-consistent visual explanations. 
                         We propose a strategy for augmenting existing text-image datasets with paraphrases using a large language model, and SelfEQ, a weakly-supervised strategy on visual explanation maps for paraphrases that encourages self-consistency. 
                         Specifically, for an input textual phrase, we attempt to generate a paraphrase and finetune the model so that the phrase and paraphrase map to the same region in the image.
                         We posit that this both expands the vocabulary that the model is able to handle, and improves the quality of the object locations highlighted by gradient-based visual explanation methods (e.g. GradCAM). 
@@ -87,10 +87,14 @@
                <div class="row">
                 <div class="col s12">
                     <h5 class="center"><b>Method</b></h5><br>
-                    <h6> Overview of our proposed weakly-supervised <strong>Self</strong>-consistency <strong>EQ</strong>uivalence tuning objective.
-                         We input image-text and image-paraphrase pairs &langle;V, T&rangle; and &langle;V, T<sup>e</sup>&rangle; to our base pre-trained vision-and-language model.
-                         We then obtain gradient-based visual explanations &langle;G, G<sup>e</sup>&rangle; and compute a similarity loss between them.
-                         We also define an overlapping region of interest mask and encourage the model to predict consistently high saliency scores within this mask for each input pair.
+                    <h6> Given a base pre-trained vision-and-language model purely trained on image-text pairs such as ALBEF, 
+                      SelfEQ tunes the model so that for a given input image and text pair, 
+                      the visual attention map extracted using GradCAM produces a similar visual attention map when provided with the same image and a text paraphrase. 
+                      The figure below provides an overview of our method. 
+                      Another contribution of our work consists in exploiting a large language model (LLM) to automatically generate paraphrases for existing datasets 
+                      such as Visual Genome that contains textual descriptions of individual objects and regions, or MS-COCO and CC3M that contain global image descriptions. 
+                      We find that SelfEQ not only expands the vocabulary of objects that the base model is able to localize but more importantly, improves the visual grounding capabilities of the model. 
+                    </h6>
                         <br><br>
                     <p class="center">
                         <img class="MethodDiagram" src="MethodDiagram.png" width="80%">
@@ -98,8 +102,10 @@
                 </div>
                 <div class="col s2 m2 l2"></div>
                 <div class="col s8 m8 l8">
-                    <h6 class="center">Summary of the entire flow, including components and choices of <b class="blue-text text-darken-2">SyViC</b> data synthesis
-                    pipeline (left) and the proposed effective finetuning technique (right).</h6>
+                    <h6 class="center">Overview of our proposed weakly-supervised <b>Self</b>-consistency <b>EQ</b>uivalence tuning objective.
+                         We input image-text and image-paraphrase pairs &langle;V, T&rangle; and &langle;V, T<sup>e</sup>&rangle; to our base pre-trained vision-and-language model.
+                         We then obtain gradient-based visual explanations &langle;G, G<sup>e</sup>&rangle; and compute a similarity loss between them.
+                         We also define an overlapping region of interest mask and encourage the model to predict consistently high saliency scores within this mask for each input pair.</h6>
                 </div>
                 <div class="col s2 m2 l2"></div>
                </div>
