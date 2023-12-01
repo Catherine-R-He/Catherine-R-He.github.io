@@ -36,22 +36,23 @@
   }
 
   .image-row {
-      width: 100%; /* Set the width of the container */
-      text-align: justify; /* This helps in aligning the images */
-      margin-bottom: 20px; /* Optional: Adds some space below the container */
+      width: 100%;
+      text-align: justify;
+      overflow: auto; /* Clearfix for the floating elements */
   }
 
   .image-row img {
-      width: 48%; /* Adjust the width of the images */
-      vertical-align: top; /* Aligns images to the top of the container */
+      width: 48%; /* Adjust based on your requirement */
+      vertical-align: top;
+      display: inline-block; /* Alternative to float */
   }
 
   .image-left {
-      float: left; /* Aligns this image to the left */
+      float: left;
   }
 
   .image-right {
-      float: right; /* Aligns this image to the right */
+      float: right;
   }
 </style>
 </head>
@@ -169,14 +170,14 @@
                 <div class="col s2 m2 l2"></div>
                </div>
 
-                <div class="image-row">
-                    <img src="qualitative_visual_grounding_supp.png" class="image-left">
-                    <img src="qualitative_self_consistency_supp.png" class="image-right">
-                </div>
-                <div class="image-row">
-                    <img src="qualitative_visual_grounding_main.png" class="image-left">
-                    <img src="qualitative_self_consistency_main.png" class="image-right">
-                </div>
+              <div class="image-row">
+                  <img src="qualitative_visual_grounding_supp.png" class="image-left">
+                  <img src="qualitative_self_consistency_supp.png" class="image-right">
+              </div>
+              <div class="image-row">
+                  <img src="qualitative_visual_grounding_main.png" class="image-left">
+                  <img src="qualitative_self_consistency_main.png" class="image-right">
+              </div>
 
                <!-- //////////////////////////// -->
 
