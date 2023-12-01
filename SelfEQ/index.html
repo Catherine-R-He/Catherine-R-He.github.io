@@ -72,7 +72,10 @@
                <div class="row">
                 <div class="col s12">
                     <h5 class="center"><b>Overview</b></h5><br>
-                    <h6> Consider the example in Figure above, where a model is tasked with pointing to the location of the object <em>frisbee</em> in this image. 
+                    <h6> In order to improve the ability of vision-and-language models to perform localization, many methods have incorporated further finetuning with either box or segment annotations, or rely on pretrained object detectors or box proposal networks.
+                      Our work instead aims to improve the localization capabilities of models trained only on image-text pairs through weak supervision.
+                      But, how can we improve the ability of a model to localize objects without access to object location annotations? 
+                      Consider the example in Figure above, where a model is tasked with pointing to the location of the object <em>frisbee</em> in this image. 
                       The baseline model succeeds at finding the object but is unsuccessful at locating the object when prompted with the equivalent but more generic name <em>disc</em>. 
                       Regardless of the ability for the base model to find either of these, the visual explanations for these two prompts should be the same since the query refers to the very same object in both cases. 
                       Our work exploits this property by first generating paraphrases using a large language model and then proposing a weakly-supervised <b>Self</b>-consistency <b>EQ</b>uivalence Tuning (SelfEQ) objective 
