@@ -39,13 +39,24 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 - *2023 - Present*, PhD in Computer Science, Rice University.
 - *2019 - 2023*, BSc in Computer Science (First Class Honours), City University of Hong Kong.
 
+
+# Preprints
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='SelfEQ/teaser.png' alt="SelfEQ teaser" width=150px></div></div>
+<div class='paper-box-text' markdown="1">
+**Improved Visual Grounding through Self-Consistent Explanations** [[Paper]](https://arxiv.org/abs/2312.04554) [[Project Page]](https://catherine-r-he.github.io/SelfEQ/) <br />
+**Ruozhen He**, Paola Cascante-Bonilla, Ziyan Yang, Alexander C. Berg, Vicente Ordóñez <br />
+December, 2023.
+</div>
+</div>
+
 <!-- # 📝 Publications  -->
 # Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI23-WCOD.png' alt="AAAI-23 Paper Weakly-Supervised Camouflaged Object Detection with Scribble Annotations" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
-**Weakly-Supervised Camouflaged Object Detection with Scribble Annotations** [[Paper]](https://arxiv.org/abs/2207.14083) [[Code]](https://github.com/dddraxxx/Weakly-Supervised-Camouflaged-Object-Detection-with-Scribble-Annotations) [[Dataset]](https://github.com/dddraxxx/Weakly-Supervised-Camouflaged-Object-Detection-with-Scribble-Annotations)    
-**Ruozhen He**\*, Qihua Dong\*, Jiaying Lin, Rynson W.H. Lau (*Joint First Authors)  
+**Weakly-Supervised Camouflaged Object Detection with Scribble Annotations** [[Paper]](https://arxiv.org/abs/2207.14083) [[Code]](https://github.com/dddraxxx/Weakly-Supervised-Camouflaged-Object-Detection-with-Scribble-Annotations) [[Dataset]](https://github.com/dddraxxx/Weakly-Supervised-Camouflaged-Object-Detection-with-Scribble-Annotations) <br />
+**Ruozhen He**\*, Qihua Dong\*, Jiaying Lin, Rynson W.H. Lau (*Joint First Authors)  <br />
 Thirty-Seventh AAAI Conference on Artificial Intelligence, AAAI-23. <font color='red'> (~Oral Presentation) </font>
 </div>
 </div>
