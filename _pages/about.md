@@ -58,7 +58,7 @@ December, 2023.
 <div class='paper-box-text' markdown="1">
 **Weakly-Supervised Camouflaged Object Detection with Scribble Annotations** [[Paper]](https://arxiv.org/abs/2207.14083) [[Code]](https://github.com/dddraxxx/Weakly-Supervised-Camouflaged-Object-Detection-with-Scribble-Annotations) [[Dataset]](https://github.com/dddraxxx/Weakly-Supervised-Camouflaged-Object-Detection-with-Scribble-Annotations) <br />
 **Ruozhen He**\*, Qihua Dong\*, Jiaying Lin, Rynson W.H. Lau (*Joint First Authors)  <br />
-Proceedings of the AAAI Conference on Artificial Intelligence, 2023. **AAAI-23**. <font color='red'> (~Oral Presentation) </font>
+Proceedings of the AAAI Conference on Artificial Intelligence, 2023. (**AAAI-23**) <font color='red'> (~Oral Presentation) </font>
 </div>
 </div>
 
@@ -66,7 +66,7 @@ Proceedings of the AAAI Conference on Artificial Intelligence, 2023. **AAAI-23**
 <div class='paper-box-text' markdown="1">
 **Efficient Mirror Detection via Multi-level Heterogeneous Learning** [[Paper]](https://arxiv.org/abs/2211.15644) [[Code]](https://github.com/Catherine-R-He/HetNet)  
 **Ruozhen He**, Jiaying Lin, Rynson W.H. Lau  
-Proceedings of the AAAI Conference on Artificial Intelligence, 2023. **AAAI-23**. <font color='red'> (~Oral Presentation) </font>
+Proceedings of the AAAI Conference on Artificial Intelligence, 2023. (**AAAI-23**) <font color='red'> (~Oral Presentation) </font>
 </div>
 </div>
 
