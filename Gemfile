@@ -10,7 +10,6 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "jekyll", "=3.9.3"
-gem 'jekyll-redirect-from'
 gem "github-pages", group: :jekyll_plugins
 
 # If you want to use Jekyll native, uncomment the line below.
