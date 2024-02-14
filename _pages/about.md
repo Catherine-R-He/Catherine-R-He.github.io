@@ -27,6 +27,7 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 <!-- # 🔥 News -->
 # News
+- \[*02/2024*\] I will serve as a reviewer for ECCV 2024.
 - \[*12/2023*\] I will serve as a reviewer for ICML 2024.
 - \[*10/2023*\] I will serve as a reviewer for CVPR 2024.
 - \[*08/2023*\] I will serve as a reviewer for ICLR 2024.
@@ -77,6 +78,7 @@ Proceedings of the AAAI Conference on Artificial Intelligence. **AAAI-23**. <fon
 
 
 # Service
+- ECCV 2024, Reviewer
 - ICML 2024, Reviewer
 - CVPR 2024, Reviewer
 - ICLR 2024, Reviewer
