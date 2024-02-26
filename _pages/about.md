@@ -53,7 +53,7 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 <div class='paper-box-text' markdown="1">
 **Improved Visual Grounding through Self-Consistent Explanations** [[Paper]](https://arxiv.org/abs/2312.04554) [[Project Page]](https://catherine-r-he.github.io/SelfEQ/) <br />
 **Ruozhen He**, Paola Cascante-Bonilla, Ziyan Yang, Alexander C. Berg, Vicente Ordóñez <br />
-The IEEE/CVF Conference on Computer Vision and Pattern Recognition.  **cvpr 2024**. 
+The IEEE/CVF Conference on Computer Vision and Pattern Recognition.  **CVPR 2024**. 
 </div>
 </div>
 
