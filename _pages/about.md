@@ -27,6 +27,7 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 <!-- # 🔥 News -->
 # News
+- \[*02/2024*\] Our paper "Improved Visual Grounding through Self-Consistent Explanations" is accepted to CVPR 2024.
 - \[*02/2024*\] I will serve as a reviewer for ECCV 2024.
 - \[*12/2023*\] I will serve as a reviewer for ICML 2024.
 - \[*10/2023*\] I will serve as a reviewer for CVPR 2024.
@@ -42,18 +43,19 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 - *2019 - 2023*, BSc in Computer Science (First Class Honours), City University of Hong Kong.
 
 
-# Preprints
+<!-- # Preprints
+ -->
 
+
+<!-- # 📝 Publications  -->
+# Publications 
 <div class='paper-box'><div class='paper-box-image'><div><img src='SelfEQ/teaser.png' alt="SelfEQ teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Improved Visual Grounding through Self-Consistent Explanations** [[Paper]](https://arxiv.org/abs/2312.04554) [[Project Page]](https://catherine-r-he.github.io/SelfEQ/) <br />
 **Ruozhen He**, Paola Cascante-Bonilla, Ziyan Yang, Alexander C. Berg, Vicente Ordóñez <br />
-December, 2023.
+The IEEE/CVF Conference on Computer Vision and Pattern Recognition.  **cvpr 2024**. 
 </div>
 </div>
-
-<!-- # 📝 Publications  -->
-# Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI23-WCOD.png' alt="AAAI-23 Paper Weakly-Supervised Camouflaged Object Detection with Scribble Annotations" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
