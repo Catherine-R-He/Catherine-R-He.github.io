@@ -123,6 +123,14 @@
                       <p class="center">
                       <img class="teaser" src="Paradigm.png" width="80%">
                       </p>
+                      <div class="col s2 m2 l2"></div>
+                <div class="col s8 m8 l8">
+                    <h6> Overview of our image-text-box synthesis pipeline. We use an image description generator <em>Ψ<sub>c</sub></em>, 
+                      which outputs a description that serves as a prompt to an image generator <em>Ψ<sub>g</sub></em> to obtain synthetic image <em>I</em>. 
+                      We also use this description to obtain text phrases <em>T</em> by prompting an LLM <em>Ψ<sub>t</sub></em>. 
+                      Finally, we input the synthetic text and image into an object detector <em>Ψ<sub>d</sub></em> to obtain synthetic boxes <em>B</em>.
+                </div>
+                <div class="col s2 m2 l2"></div>
                 </div>
 
               <div class="col s2 m2 l2"></div>
@@ -139,14 +147,7 @@
                         <img class="Paradigm" src="Paradigm.png" width="80%">
                     </p> -->
                 </div>
-                <div class="col s2 m2 l2"></div>
-                <div class="col s8 m8 l8">
-                    <h6> Overview of our image-text-box synthesis pipeline. We use an image description generator <em>Ψ<sub>c</sub></em>, 
-                      which outputs a description that serves as a prompt to an image generator <em>Ψ<sub>g</sub></em> to obtain synthetic image <em>I</em>. 
-                      We also use this description to obtain text phrases <em>T</em> by prompting an LLM <em>Ψ<sub>t</sub></em>. 
-                      Finally, we input the synthetic text and image into an object detector <em>Ψ<sub>d</sub></em> to obtain synthetic boxes <em>B</em>.
-                </div>
-                <div class="col s2 m2 l2"></div>
+                
                </div>
 
                <!-- //////////////////////////// -->
@@ -166,13 +167,13 @@
                     </p> -->
                   <h6>
                       Samples of our synthetic image-text-boxes.
-                    </h6><br>
+                    </h6>
                   <p class="center">
                         <img class="qualitative" src="Qualitative.png" width="80%">
                     </p>
                   <h6>
                       Samples of our synthetic image-text-boxes generated at a higher synthetic purity level.
-                    </h6><br>
+                    </h6>
                   <p class="center">
                         <img class="qualitative-high" src="Qualitative-supp.png" width="80%">
                     </p>
