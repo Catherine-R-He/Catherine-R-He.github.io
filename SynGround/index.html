@@ -116,14 +116,14 @@
                       Our proposed paradigm leverages the benefits of training using both data and models, improving performance for visual grounding.
                         <br><br>
                       <p class="center">
-                      <img class="teaser" src="Teaser.png" width="80%">
+                      <img class="teaser" src="SynGround-no-loop.gif" width="90%">
                       </p>
                 </div>
 
               <div class="col s2 m2 l2"></div>
                <div class="row">
                 <div class="col s12">
-                    <h5 class="center"><b>Method</b></h5><br>
+<!--                     <h5 class="center"><b>Method</b></h5><br> -->
                     <h6> In this work, we introduce a pragmatic framework for image-text-box synthesis tailored for visual grounding. To the best of our knowledge, this paper is the first to study to which extent <em>learning from models</em> impacts the capability of a pre-trained vision-and-language model to localize objects in an image given a visual explanation.
                         We navigate from lower to higher synthetic purity levels, and break down our investigation of synthetic image-text-box generation into image-text pairs and image-text-box synthesis. 
                         Our method, SynGround, leverages a captioning model to generate dense textual descriptions, used for image synthesis. The generated image descriptions are fed into an LLM for text synthesis. Finally, the image-text-box generation is complemented with synthetic bounding boxes from an open-vocabulary object detector.
