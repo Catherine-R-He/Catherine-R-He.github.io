@@ -43,8 +43,14 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 - *2019 - 2023*, BSc in Computer Science (First Class Honours), City University of Hong Kong.
 
 
-<!-- # Preprints
- -->
+# Preprints
+<div class='paper-box'><div class='paper-box-image'><div><img src='SynGround/Teaser.png' alt="SynGround teaser" width=150px></div></div>
+<div class='paper-box-text' markdown="1">
+**Improved Visual Grounding through Self-Consistent Explanations** [[Paper]](https://arxiv.org/abs/2403.13804) [[Project Page]](https://catherine-r-he.github.io/SynGround/) <br />
+**Ruozhen He**, Paola Cascante-Bonilla, Ziyan Yang, Alexander C. Berg, Vicente Ordóñez <br />
+March, 2024. 
+</div>
+</div>
 
 
 <!-- # 📝 Publications  -->
