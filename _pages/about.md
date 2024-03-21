@@ -21,7 +21,7 @@ I am a first-year computer science PhD student at [Vislang Lab](https://www.visl
 
 My primary research interests lie in computer vision, with a focus on efficient algorithms under less or multimodal supervision. I am particularly interested in leveraging knowledge from neuroscience and cognitive psychology to develop concise, efficient, and interpretable algorithms achieving human-level intelligence in versatile tasks. 
 
-As a PhD student, I am always excited to collaborate with other researchers and explore new fields. Do not hesitate to contact me if you are interested!
+As a PhD student, I am always excited to collaborate with other researchers and explore new fields. Do not hesitate to reach out if you are interested!
 <!-- Outside of academia, I enjoy listening to classical music and spending time outdoors, as these activities help me clear my mind and approach problems with a fresh perspective. -->
 
 
@@ -44,7 +44,7 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 
 # Preprints
-<div class='paper-box'><div class='paper-box-image'><div><img src='SynGround/Teaser.png' alt="SynGround teaser" width=150 height=100></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/SynGround-Teaser.png' alt="SynGround teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Learning from Models and Data for Visual Grounding** [[Paper]](https://arxiv.org/abs/2403.13804) [[Project Page]](https://catherine-r-he.github.io/SynGround/) <br />
 **Ruozhen He**, Paola Cascante-Bonilla, Ziyan Yang, Alexander C. Berg, Vicente Ordóñez <br />
@@ -55,7 +55,7 @@ March, 2024.
 
 <!-- # 📝 Publications  -->
 # Publications 
-<div class='paper-box'><div class='paper-box-image'><div><img src='SelfEQ/teaser.png' alt="CVPR 2024 Paper Improved Visual Grounding through Self-Consistent Explanations" width=150 height=100></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/CVPR2024-SelfEQ.png' alt="CVPR 2024 Paper Improved Visual Grounding through Self-Consistent Explanations" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Improved Visual Grounding through Self-Consistent Explanations** [[Paper]](https://arxiv.org/abs/2312.04554) [[Code]](https://github.com/uvavision/SelfEQ) [[Project Page]](https://catherine-r-he.github.io/SelfEQ/) <br />
 **Ruozhen He**, Paola Cascante-Bonilla, Ziyan Yang, Alexander C. Berg, Vicente Ordóñez <br />
@@ -63,7 +63,7 @@ The IEEE/CVF Conference on Computer Vision and Pattern Recognition.  **CVPR 2024
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI23-WCOD.png' alt="AAAI-23 Paper Weakly-Supervised Camouflaged Object Detection with Scribble Annotations" width=150 height=100></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI23-WCOD.png' alt="AAAI-23 Paper Weakly-Supervised Camouflaged Object Detection with Scribble Annotations" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Weakly-Supervised Camouflaged Object Detection with Scribble Annotations** [[Paper]](https://arxiv.org/abs/2207.14083) [[Code]](https://github.com/dddraxxx/Weakly-Supervised-Camouflaged-Object-Detection-with-Scribble-Annotations) [[Dataset]](https://github.com/dddraxxx/Weakly-Supervised-Camouflaged-Object-Detection-with-Scribble-Annotations) <br />
 **Ruozhen He**\*, Qihua Dong\*, Jiaying Lin, Rynson W.H. Lau (*Joint First Authors)  <br />
@@ -71,7 +71,7 @@ Proceedings of the AAAI Conference on Artificial Intelligence. **AAAI-23**. <fon
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI23-EfficientMirror.png' alt="AAAI-23 Paper Efficient Mirror Detection via Multi-level Heterogeneous Learning" width=150 height=100></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI23-EfficientMirror.png' alt="AAAI-23 Paper Efficient Mirror Detection via Multi-level Heterogeneous Learning" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Efficient Mirror Detection via Multi-level Heterogeneous Learning** [[Paper]](https://arxiv.org/abs/2211.15644) [[Code]](https://github.com/Catherine-R-He/HetNet)  
 **Ruozhen He**, Jiaying Lin, Rynson W.H. Lau  
