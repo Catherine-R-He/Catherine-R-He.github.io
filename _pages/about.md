@@ -27,6 +27,7 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 <!-- # 🔥 News -->
 # News
+- \[*05/2024*\] I will serve as a reviewer for NeurIPS 2024.
 - \[*02/2024*\] Our paper "Improved Visual Grounding through Self-Consistent Explanations" is accepted to CVPR 2024.
 - \[*02/2024*\] I will serve as a reviewer for ECCV 2024.
 - \[*12/2023*\] I will serve as a reviewer for ICML 2024.
@@ -86,11 +87,11 @@ Proceedings of the AAAI Conference on Artificial Intelligence. **AAAI-23**. <fon
 
 
 # Service
-- ECCV 2024, Reviewer
-- ICML 2024, Reviewer
 - CVPR 2024, Reviewer
+- ECCV 2024, Reviewer
+- NeurIPS 2023/2024, Reviewer
+- ICML 2024, Reviewer
 - ICLR 2024, Reviewer
-- NeurIPS 2023, Reviewer
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
