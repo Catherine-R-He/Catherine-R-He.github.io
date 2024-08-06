@@ -45,6 +45,14 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 
 # Preprints
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/Fairness-survey-Teaser.png' alt="Fairness survey teaser" width=150px></div></div>
+<div class='paper-box-text' markdown="1">
+**Fairness and Bias Mitigation in Computer Vision: A Survey** [[Paper]]([https://arxiv.org/abs/2403.13804](https://arxiv.org/abs/2408.02464)) <br />
+Sepehr Dehdashtian\*, **Ruozhen He**\*, Yi Li, Guha Balakrishnan, Nuno Vasconcelos, Vicente Ordonez, Vishnu Naresh Boddeti (*Joint First Authors) <br />
+August, 2024. 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/SynGround-Teaser.png' alt="SynGround teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Learning from Models and Data for Visual Grounding** [[Paper]](https://arxiv.org/abs/2403.13804) [[Project Page]](https://catherine-r-he.github.io/SynGround/) <br />
