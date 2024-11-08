@@ -27,7 +27,7 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 <!-- # 🔥 News -->
 # News
-- \[*11/2024*\] I am recognized as a top reviewer at NeurIPS 2024.
+- \[*11/2024*\] I am recognized as a top reviewer at [NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers).
 - \[*05/2024-11/2024*\] I will serve as a reviewer for NeurIPS 2024, ICLR 2025, and CVPR 2025.
 - \[*02/2024*\] Our paper "Improved Visual Grounding through Self-Consistent Explanations" is accepted to CVPR 2024.
 - \[*08/2023-02/2024*\] I will serve as a reviewer for ICLR 2024, CVPR 2024, ICML 2024, and ECCV 2024.
