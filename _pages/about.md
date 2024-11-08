@@ -27,10 +27,10 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 <!-- # 🔥 News -->
 # News
-- \[*11/2024*\] I am recognized as a top reviewer at [NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers).
-- \[*05/2024-11/2024*\] I will serve as a reviewer for NeurIPS 2024, ICLR 2025, and CVPR 2025.
+- \[*11/2024*\] I am recognized as a [top reviewer at NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers).
+- \[*08/2024-11/2024*\] I will serve as a reviewer for ICLR 2025 and CVPR 2025.
 - \[*02/2024*\] Our paper "Improved Visual Grounding through Self-Consistent Explanations" is accepted to CVPR 2024.
-- \[*08/2023-02/2024*\] I will serve as a reviewer for ICLR 2024, CVPR 2024, ICML 2024, and ECCV 2024.
+- \[*08/2023-05/2024*\] I will serve as a reviewer for ICLR 2024, CVPR 2024, ICML 2024, ECCV 2024, and NeurIPS 2024, .
 - \[*08/2023*\] I started my PhD study at VisLang Lab, Rice University.
 - \[*08/2023*\] I won the first runner-up prize in the IEEE (Hong Kong) Computational Intelligence Chapter Final Year Project Competition 2022-2023.
 - \[*06/2023*\] I graduated from City University of Hong Kong with First Class Honours.
