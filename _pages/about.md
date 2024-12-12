@@ -29,7 +29,7 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 # News
 - \[*11/2024*\] I have been awarded the Ken Kennedy Institute 2024/25 Ken Kennedy-HPE Cray Graduate Fellowship.
 - \[*11/2024*\] I have been recognized as a [top reviewer at NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers).
-- \[*08/2024-11/2024*\] I will serve as a reviewer for ICLR 2025 and CVPR 2025.
+- \[*08/2024-12/2024*\] I will serve as a reviewer for ICLR 2025, CVPR 2025, and ICML 2025.
 - \[*02/2024*\] Our paper ["Improved Visual Grounding through Self-Consistent Explanations"](https://catherine-r-he.github.io/SelfEQ/) is accepted to CVPR 2024.
 - \[*08/2023-05/2024*\] I will serve as a reviewer for ICLR 2024, CVPR 2024, ICML 2024, ECCV 2024, and NeurIPS 2024.
 - \[*08/2023*\] I started my PhD study at VisLang Lab, Rice University.
@@ -98,7 +98,7 @@ Proceedings of the AAAI Conference on Artificial Intelligence. **AAAI-23**. <fon
 - ECCV 2024, Reviewer
 - NeurIPS 2023/2024, Reviewer
 - ICLR 2024/2025, Reviewer
-- ICML 2024, Reviewer
+- ICML 2024/2025, Reviewer
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
