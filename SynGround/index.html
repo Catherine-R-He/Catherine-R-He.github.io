@@ -69,15 +69,15 @@
 </head>
 <body class="section">
     <div class="section">
-        <h3 class="header center black-text text-darken-4"><b>Learning from Models and Data for Visual Grounding</b></h3> 
+        <h3 class="header center black-text text-darken-4"><b>Learning from Synthetic Data for Visual Grounding</b></h3> 
         <h5 class="header center black-text text-lighten-3">
             <a target="_blank" href="https://catherine-r-he.github.io/">Ruozhen (Catherine) He</a><sup>1</sup> &nbsp; &nbsp;
-            <a target="_blank" href="https://paolacascante.com">Paola Cascante-Bonilla</a><sup>1</sup> &nbsp; &nbsp;
             <a target="_blank" href="https://ziyanyang.github.io/">Ziyan Yang</a><sup>1</sup> &nbsp; &nbsp;
-            <a target="_blank" href="http://acberg.com/">Alexander C. Berg</a><sup>2</sup> &nbsp; &nbsp;
+            <a target="_blank" href="https://paolacascante.com">Paola Cascante-Bonilla</a><sup>2</sup> &nbsp; &nbsp;
+            <a target="_blank" href="http://acberg.com/">Alexander C. Berg</a><sup>3</sup> &nbsp; &nbsp;
             <a target="_blank" href="https://www.cs.rice.edu/~vo9/">Vicente Ordóñez</a><sup>1</sup> &nbsp; &nbsp;
         </h5>
-        <h6 class="header center black-text text-darken-3"><sup>1</sup>Rice University, &nbsp; &nbsp; <sup>2</sup>UC Irvine &nbsp; &nbsp; 
+        <h6 class="header center black-text text-darken-3"><sup>1</sup>Rice University, &nbsp; &nbsp; <sup>2</sup>University of Maryland &nbsp; &nbsp; <sup>3</sup>UC Irvine &nbsp; &nbsp; 
         </h6>
         <div class="section">
             <div class="container">
@@ -103,11 +103,13 @@
                     <h5 class="center"><b>Abstract</b></h5>
                     <div class="divider"></div>
                     <p>
-                        We introduce SynGround, a novel framework that combines data-driven learning and knowledge transfer from various large-scale pretrained models to enhance the visual grounding capabilities of a pretrained vision-and-language model. The knowledge transfer from the models initiates the generation of image descriptions through an image description generator. 
-                        These descriptions serve dual purposes: they act as prompts for synthesizing images through a text-to-image generator, and as queries for synthesizing text, from which phrases are extracted using a large language model.
-                        Finally, we leverage an open-vocabulary object detector to generate synthetic bounding boxes for the synthetic images and texts. 
-                        We finetune a pretrained vision-and-language model on this dataset by optimizing a mask-attention consistency objective that aligns region annotations with gradient-based model explanations. The resulting model improves the grounding capabilities of an off-the-shelf vision-and-language model. 
-                        Particularly, SynGround improves the pointing game accuracy of ALBEF on the Flickr30k dataset from 79.38% to 87.26%, and on RefCOCO+ Test A from 69.35% to 79.06% and on RefCOCO+ Test B from 53.77% to 63.67%.
+                        This paper extensively investigates the effectiveness of synthetic training data to improve the capabilities of vision-and-language models for grounding
+                        textual descriptions to image regions. We explore various strategies to best generate image-text pairs and image-text-box triplets using a series of
+                        pretrained models under different settings and varying degrees of reliance on real data. Through comparative analyses with synthetic, real, and web-crawled
+                        data, we identify factors that contribute to performance differences, and propose SynGround, an effective pipeline for generating useful synthetic data
+                        for visual grounding. Our findings show that SynGround can improve the localization capabilities of off-the-shelf vision-and-language models and
+                        offers the potential for arbitrarily large scale data generation. Particularly, data generated with SynGround improves the pointing game accuracy of a
+                        pretrained ALBEF and BLIP models by 4.81% and 17.11% absolute percentage points, respectively, across the RefCOCO+ and the Flickr30k benchmarks.
                    </p>
                    <div class="divider"></div>
                    <br>
