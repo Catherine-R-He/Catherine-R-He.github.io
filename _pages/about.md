@@ -44,6 +44,14 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 
 # Preprints
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/SynGround-Teaser.png' alt="SynGround teaser" width=150px></div></div>
+<div class='paper-box-text' markdown="1">
+**Learning from Synthetic Data for Visual Grounding** [[Paper]](https://arxiv.org/abs/2403.13804) [[Project Page]](https://catherine-r-he.github.io/SynGround/) <br />
+**Ruozhen He**, Ziyan Yang, Paola Cascante-Bonilla, Alexander C. Berg, Vicente Ordóñez <br />
+December, 2024. 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/Fairness-survey-Teaser.png' alt="Fairness survey teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Fairness and Bias Mitigation in Computer Vision: A Survey** [[Paper]](https://arxiv.org/abs/2408.02464) <br />
@@ -52,13 +60,6 @@ August, 2024.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/SynGround-Teaser.png' alt="SynGround teaser" width=150px></div></div>
-<div class='paper-box-text' markdown="1">
-**Learning from Models and Data for Visual Grounding** [[Paper]](https://arxiv.org/abs/2403.13804) [[Project Page]](https://catherine-r-he.github.io/SynGround/) <br />
-**Ruozhen He**, Paola Cascante-Bonilla, Ziyan Yang, Alexander C. Berg, Vicente Ordóñez <br />
-March, 2024. 
-</div>
-</div>
 
 
 <!-- # 📝 Publications  -->
