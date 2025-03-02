@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Improved Visual Grounding through Self-Consistent Explanations [CVPR 2024]</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <!-- <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var instances = M.Materialbox.init(elems, options);
+      });
+  </script> -->
+  <style>
+  /* Apply justification to paragraphs */
+  p {
+    text-align: justify;
+    margin: 0;
+    padding: 10px; /* Add padding for spacing */
+  }
+
+  h6 {
+    text-align: justify;
+    margin: 0;
+    padding: 10px; /* Add padding for spacing */
+    line-height: 2;
+  }
+
+  /* Add a divider style for separation */
+  .divider {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+  }
+
+  .image-row {
+      width: 100%;
+      text-align: justify;
+      overflow: auto; /* Clearfix for the floating elements */
+  }
+
+  .image-row img {
+      width: 48%; /* Adjust based on your requirement */
+      vertical-align: top;
+      display: inline-block; /* Alternative to float */
+  }
+
+  .image-left {
+      float: left;
+  }
+
+  .image-right {
+      float: right;
+  }
+
+  /* Targeting <a> tags specifically within the .header.center.pink-text.text-darken-3 */
+  .header.center.black-text.text-lighten-3 a {
+    color: #000000; /* Darker shade of red */
+    text-decoration: none; /* Optional: removes underline */
+  }
+  
+  /* Add :hover to change color when hovering over the link */
+  .header.center.black-text.text-lighten-3 a:hover {
+    color: #F88379; /* Even darker shade of red for hover effect */
+  }
+</style>
+</head>
+<body class="section">
+    <div class="section">
+        <h3 class="header center black-text text-darken-4"><b>Improved Visual Grounding through Self-Consistent Explanations [CVPR 2024]</b></h3> 
+        <h5 class="header center black-text text-lighten-3">
+            <a target="_blank" href="https://catherine-r-he.github.io/">Ruozhen Catherine He</a><sup>1</sup>, &nbsp; &nbsp;
+            <a target="_blank" href="https://paolacascante.com">Paola Cascante-Bonilla</a><sup>1</sup>, &nbsp; &nbsp;
+            <a target="_blank" href="https://ziyanyang.github.io/">Ziyan Yang</a><sup>1</sup>, &nbsp; &nbsp;
+            <a target="_blank" href="http://acberg.com/">Alexander C. Berg</a><sup>2</sup>, &nbsp; &nbsp;
+            <a target="_blank" href="https://www.cs.rice.edu/~vo9/">Vicente Ordóñez</a><sup>1</sup>, &nbsp; &nbsp;
+        </h5>
+        <h6 class="header center black-text text-darken-3"><sup>1</sup>Rice University, &nbsp; &nbsp; <sup>2</sup>UC Irvine &nbsp; &nbsp; 
+        </h6>
+        <div class="section">
+            <div class="container">
+              <div class="row">
+                <h6 class="col s12 m1">
+                </h6>
+                <h5 class="flow-text col s12 m10">
+                  <div class="center">
+                    <i class="ai ai-obp ai-1x"></i> <a href="https://arxiv.org/abs/2312.04554" style="color: #F88379; text-decoration: none;"><b>Paper</b></a>
+                    <!-- &emsp; <i class="ai ai-open-materials ai-1x"></i> <a href=""><b>Dataset [coming soon!]</b></a> -->
+                    &emsp; <i class="ai ai-open-materials ai-1x"></i> <a href="https://github.com/uvavision/SelfEQ" style="color: #F88379; text-decoration: none;"><b> Code & Data</b></a>
+<!--                     <br><br> -->
+                    <br>
+                    </div>
+                    <!-- <br>
+                    <br>
+                        Vision-and-language models trained to match images with text can be combined with visual explanation methods to point to the locations of specific objects in an image. 
+                        Our work shows that the localization --''grounding''-- abilities of these models can be further improved by finetuning for self-consistent visual explanations. 
+                        We propose a strategy for augmenting existing text-image datasets with paraphrases using a large language model, and SelfEQ, a weakly-supervised strategy on visual explanation maps for paraphrases that encourages self-consistency. 
+                        Specifically, for an input textual phrase, we attempt to generate a paraphrase and finetune the model so that the phrase and paraphrase map to the same region in the image.
+                        We posit that this both expands the vocabulary that the model is able to handle, and improves the quality of the object locations highlighted by gradient-based visual explanation methods (e.g. GradCAM). 
+                        We demonstrate that SelfEQ improves performance on Flickr30k, ReferIt, and RefCOCO+ over a strong baseline method and several prior works. 
+                        Particularly, comparing to other methods that do not use any type of box annotations, we obtain 84.07% on Flickr30k (an absolute improvement of 4.69%), 67.40% on ReferIt (an absolute improvement of 7.68%), and 75.10%, 55.49% on RefCOCO+ test sets A and B respectively (an absolute improvement of 3.74% on average).
+                        -->
+                  <!-- </div>  -->
+                </h5>
+                <div class="col s2 m2 l2"></div>
+                <div class="col s8 m8 l8">
+                    <br>
+                    <h5 class="center"><b>Abstract</b></h5>
+                    <div class="divider"></div>
+                    <p>
+                        Vision-and-language models trained to match images with text can be combined with visual explanation methods to point to the locations of specific objects in an image. 
+                        Our work shows that the localization --''grounding''-- abilities of these models can be further improved by finetuning for self-consistent visual explanations. 
+                        We propose a strategy for augmenting existing text-image datasets with paraphrases using a large language model, and SelfEQ, a weakly-supervised strategy on visual explanation maps for paraphrases that encourages self-consistency. 
+                        Specifically, for an input textual phrase, we attempt to generate a paraphrase and finetune the model so that the phrase and paraphrase map to the same region in the image.
+                        We posit that this both expands the vocabulary that the model is able to handle, and improves the quality of the object locations highlighted by gradient-based visual explanation methods (e.g. GradCAM). 
+                        We demonstrate that SelfEQ improves performance on Flickr30k, ReferIt, and RefCOCO+ over a strong baseline method and several prior works. 
+                        Particularly, comparing to other methods that do not use any type of box annotations, we obtain 84.07% on Flickr30k (an absolute improvement of 4.69%), 67.40% on ReferIt (an absolute improvement of 7.68%), and 75.10%, 55.49% on RefCOCO+ test sets A and B respectively (an absolute improvement of 3.74% on average).
+                   </p>
+                   <div class="divider"></div>
+                   <br>
+               </div>
+               <div class="col s2 m2 l2"></div>
+               <div class="row">
+                <div class="col s12">
+                    <h5 class="center"><b>Overview</b></h5><br>
+                    <h6> In order to improve the ability of vision-and-language models to perform localization, many methods have incorporated further finetuning with either box or segment annotations, or rely on pretrained object detectors or box proposal networks.
+                      Our work instead aims to improve the localization capabilities of models trained only on image-text pairs through weak supervision.
+                      But, how can we improve the ability of a model to localize objects without access to object location annotations? 
+                      Consider the example in Figure below, where a model is tasked with pointing to the location of the object <em>frisbee</em> in this image. 
+                      The baseline model succeeds at finding the object but is unsuccessful at locating the object when prompted with the equivalent but more generic name <em>disc</em>. 
+                      Regardless of the ability for the base model to find either of these, the visual explanations for these two prompts should be the same since the query refers to the very same object in both cases. 
+                      Our work exploits this property by first generating paraphrases using a large language model and then proposing a weakly-supervised <b>Self</b>-consistency <b>EQ</b>uivalence Tuning (SelfEQ) objective 
+                      that encourages consistent visual explanations between paraphrased input text pairs that refer to the same object or region in a given image.
+                        <br><br>
+                      <p class="center">
+                      <img class="teaser" src="teaser.png" width="80%">
+                      </p>
+                </div>
+
+              <div class="col s2 m2 l2"></div>
+               <div class="row">
+                <div class="col s12">
+                    <h5 class="center"><b>Method</b></h5><br>
+                    <h6> Given a base pre-trained vision-and-language model purely trained on image-text pairs such as ALBEF, 
+                      SelfEQ tunes the model so that for a given input image and text pair, 
+                      the visual attention map extracted using GradCAM produces a similar visual attention map when provided with the same image and a text paraphrase. 
+                      The figure below provides an overview of our method. 
+                      Another contribution of our work consists in exploiting a large language model (LLM) to automatically generate paraphrases for existing datasets 
+                      such as Visual Genome that contains textual descriptions of individual objects and regions, or MS-COCO and CC3M that contain global image descriptions. 
+                      We find that SelfEQ not only expands the vocabulary of objects that the base model is able to localize but more importantly, improves the visual grounding capabilities of the model. 
+                    </h6>
+                        <br><br>
+                    <p class="center">
+                        <img class="MethodDiagram" src="MethodDiagram.png" width="80%">
+                    </p>
+                </div>
+                <div class="col s2 m2 l2"></div>
+                <div class="col s8 m8 l8">
+                    <h6>Overview of our proposed weakly-supervised <b>Self</b>-consistency <b>EQ</b>uivalence tuning objective.
+                         We input image-text and image-paraphrase pairs &langle;V, T&rangle; and &langle;V, T<sup>e</sup>&rangle; to our base pre-trained vision-and-language model.
+                         We then obtain gradient-based visual explanations &langle;G, G<sup>e</sup>&rangle; and compute a similarity loss between them.
+                         We also define an overlapping region of interest mask and encourage the model to predict consistently high saliency scores within this mask for each input pair.</h6>
+                </div>
+                <div class="col s2 m2 l2"></div>
+               </div>
+
+               <!-- //////////////////////////// -->
+
+               <div class="row">
+                <div class="col s12">
+                    <h5 class="center"><b> Experimental Results </b></h5><br>
+                    <h6>
+                      Our resulting model obtains the best performance on the task of weakly-supervised visual grounding compared to most methods under this setting 
+                      and is comparable to several prior works that rely on some of box supervision. 
+                      Moreover, our qualitative results show that our method can handle paraphrases and a larger vocabulary without the needed to increment the training dataset significantly.
+                    </h6><br>
+                    <p class="center">
+                        <img class="table1" src="Table1.png" width="50%">
+                        <img class="table2" src="Table2.png" width="50%">
+                    </p>
+                </div>
+                <div class="col s2 m2 l2"></div>
+               </div>
+
+              <div class="image-row">
+                <p>
+                  <img src="qualitative_visual_grounding_supp.png" class="image-left">
+                  <img src="qualitative_self_consistency_supp.png" class="image-right">
+                </p>
+              </div>
+              <div class="image-row">
+                <p>
+                  <img src="qualitative_visual_grounding_main.png" class="image-left">
+                  <img src="qualitative_self_consistency_main.png" class="image-right">
+                </p>
+              </div>
+
+               <!-- //////////////////////////// -->
+
+               <div class="row">
+                <div class="col s2 m2 l2"></div>
+                <div class="col s8 m8 l8">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="divider"></div>
+                    <h6 class="center"><b>BibTeX</b></h6>
+                    <blockquote>
+                    <font face="Courier New">
+                      @article{he2023improved, <br>
+                            &nbsp; &nbsp; title={Improved Visual Grounding through Self-Consistent Explanations}, <br>
+                            &nbsp; &nbsp; author={He, Ruozhen and Cascante-Bonilla, Paola and Yang, Ziyan and Berg, Alexander C and Ordonez, Vicente}, <br>
+                            &nbsp; &nbsp; journal={arXiv preprint arXiv:2312.04554}, <br>
+                            &nbsp; &nbsp; year={2023}
+                        }
+                    </font>
+                    </blockquote>
+                </div>
+                <div class="col s2 m2 l2"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+</body>
+</html>
