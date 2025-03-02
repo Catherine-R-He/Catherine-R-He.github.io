@@ -6,7 +6,7 @@
    Default
    ========================================================================== */
 
-.sidebar {
+  .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
@@ -66,8 +66,8 @@
 }
 
 /*
-   Author profile and links
-   ========================================================================== */
+    Author profile and links
+    ========================================================================== */
 .profile_box{
   @include breakpoint($large) {
     display: block;
@@ -140,8 +140,8 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 }
 
