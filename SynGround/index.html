@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Learning from Synthetic Data for Visual Grounding</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <!-- <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var instances = M.Materialbox.init(elems, options);
+      });
+  </script> -->
+  <style>
+  /* Apply justification to paragraphs */
+  p {
+    text-align: justify;
+    margin: 0;
+    padding: 10px; /* Add padding for spacing */
+  }
+
+  h6 {
+    text-align: justify;
+    margin: 0;
+    padding: 10px; /* Add padding for spacing */
+    line-height: 2;
+  }
+
+  /* Add a divider style for separation */
+  .divider {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+  }
+
+  .image-row {
+      width: 100%;
+      text-align: justify;
+      overflow: auto; /* Clearfix for the floating elements */
+  }
+
+  .image-row img {
+      width: 48%; /* Adjust based on your requirement */
+      vertical-align: top;
+      display: inline-block; /* Alternative to float */
+  }
+
+  .image-left {
+      float: left;
+  }
+
+  .image-right {
+      float: right;
+  }
+
+  /* Targeting <a> tags specifically within the .header.center.pink-text.text-darken-3 */
+.header.center.black-text.text-lighten-3 a {
+  color: #000000; /* Darker shade of red */
+  text-decoration: none; /* Optional: removes underline */
+}
+
+/* Add :hover to change color when hovering over the link */
+.header.center.black-text.text-lighten-3 a:hover {
+  color: #F88379; /* Even darker shade of red for hover effect */
+}
+</style>
+</head>
+<body class="section">
+    <div class="section">
+        <h3 class="header center black-text text-darken-4"><b>Learning from Synthetic Data for Visual Grounding</b></h3> 
+        <h5 class="header center black-text text-lighten-3">
+            <a target="_blank" href="https://catherine-r-he.github.io/">Ruozhen Catherine He</a><sup>1</sup> &nbsp; &nbsp;
+            <a target="_blank" href="https://ziyanyang.github.io/">Ziyan Yang</a><sup>1</sup> &nbsp; &nbsp;
+            <a target="_blank" href="https://paolacascante.com">Paola Cascante-Bonilla</a><sup>2</sup> &nbsp; &nbsp;
+            <a target="_blank" href="http://acberg.com/">Alexander C. Berg</a><sup>3</sup> &nbsp; &nbsp;
+            <a target="_blank" href="https://www.cs.rice.edu/~vo9/">Vicente Ordóñez</a><sup>1</sup> &nbsp; &nbsp;
+        </h5>
+        <h6 class="header center black-text text-darken-3"><sup>1</sup>Rice University, &nbsp; &nbsp; <sup>2</sup>University of Maryland, &nbsp; &nbsp; <sup>3</sup>UC Irvine &nbsp; &nbsp; 
+        </h6>
+        <div class="section">
+            <div class="container">
+              <div class="row">
+                <h6 class="col s12 m1">
+                </h6>
+                <h5 class="flow-text col s12 m10">
+                  <div class="center">
+                    <i class="ai ai-obp ai-1x"></i> <a href="https://arxiv.org/abs/2403.13804" style="color: #F88379; text-decoration: none;"><b>Paper</b></a>
+                    &emsp;
+                    <i class="ai ai-open-materials ai-1x"></i> <a href="" style="color: #F88379; text-decoration: none;"><b> Code & Data [Coming Soon!]</b></a>
+                    <br><br>
+                  </div>
+                </h5>
+                <div class="row">
+                    <p class="center">
+                          <img class="gif" src="SynGround-no-loop.gif" width="80%">
+                    </p>
+                </div>
+                <div class="col s2 m2 l2"></div>
+                <div class="col s8 m8 l8">
+                    <br>
+                    <h5 class="center"><b>Abstract</b></h5>
+                    <div class="divider"></div>
+                    <p>
+                        This paper extensively investigates the effectiveness of synthetic training data to improve the capabilities of vision-and-language models for grounding
+                        textual descriptions to image regions. We explore various strategies to best generate image-text pairs and image-text-box triplets using a series of
+                        pretrained models under different settings and varying degrees of reliance on real data. Through comparative analyses with synthetic, real, and web-crawled
+                        data, we identify factors that contribute to performance differences, and propose SynGround, an effective pipeline for generating useful synthetic data
+                        for visual grounding. Our findings show that SynGround can improve the localization capabilities of off-the-shelf vision-and-language models and
+                        offers the potential for arbitrarily large scale data generation. Particularly, data generated with SynGround improves the pointing game accuracy of a
+                        pretrained ALBEF and BLIP models by 4.81% and 17.11% absolute percentage points, respectively, across the RefCOCO+ and the Flickr30k benchmarks.
+                   </p>
+                   <div class="divider"></div>
+                   <br>
+               </div>
+               <div class="col s2 m2 l2"></div>
+               <div class="row">
+                <div class="col s12">
+                    <h5 class="center"><b>Overview</b></h5><br>
+                    <h6> Data is effective for learning visual grounding, but expensive to curate at scale. 
+                      In contrast, learning from related models is more flexible yet less effective. 
+                      Our proposed paradigm leverages the benefits of training using both data and models, improving performance for visual grounding.
+                        <br><br>
+                      <p class="center">
+                      <img class="teaser" src="Paradigm.png" width="80%">
+                      </p>
+                      <div class="col s2 m2 l2"></div>
+                <div class="col s8 m8 l8">
+                    <h6> Overview of our image-text-box synthesis pipeline. We use an image description generator <em>Ψ<sub>c</sub></em>, 
+                      which outputs a description that serves as a prompt to an image generator <em>Ψ<sub>g</sub></em> to obtain synthetic image <em>I</em>. 
+                      We also use this description to obtain text phrases <em>T</em> by prompting an LLM <em>Ψ<sub>t</sub></em>. 
+                      Finally, we input the synthetic text and image into an object detector <em>Ψ<sub>d</sub></em> to obtain synthetic boxes <em>B</em>.
+                </div>
+                <div class="col s2 m2 l2"></div>
+                </div>
+
+              <div class="col s2 m2 l2"></div>
+               <div class="row">
+                <div class="col s12">
+<!--                     <h5 class="center"><b>Method</b></h5><br> -->
+                    <h6> In this work, we introduce a pragmatic framework for image-text-box synthesis tailored for visual grounding. To the best of our knowledge, this paper is the first to study to which extent <em>learning from models</em> impacts the capability of a pre-trained vision-and-language model to localize objects in an image given a visual explanation.
+                        We navigate from lower to higher synthetic purity levels, and break down our investigation of synthetic image-text-box generation into image-text pairs and image-text-box synthesis. 
+                        Our method, SynGround, leverages a captioning model to generate dense textual descriptions, used for image synthesis. The generated image descriptions are fed into an LLM for text synthesis. Finally, the image-text-box generation is complemented with synthetic bounding boxes from an open-vocabulary object detector.
+                        Remarkably, finetuning a base pretrained vision-and-language model on such synthetic set leads to a substantial performance gain, showcasing the potential of learning from models. More importantly, it reaches new heights when learning from models and data by finetuning on both real and synthetic data. 
+                    </h6>
+                        <br><br>
+<!--                     <p class="center">
+                        <img class="Paradigm" src="Paradigm.png" width="80%">
+                    </p> -->
+                </div>
+                
+               </div>
+
+               <!-- //////////////////////////// -->
+
+               <div class="row">
+                <div class="col s12">
+                    <h5 class="center"><b> Experimental Results </b></h5><br>
+                    <h6>
+                      We evaluate a vision-and-language model's visual grounding performance through gradient-based explanations with pointing-game accuracy on RefCOCO+ and Flickr30k. We compare the visual grounding improvements for the off-the-shelf base model (row 1) by learning exclusively from data (row 2), from models (row 3), and a combination of both (row 4).
+                    </h6><br>
+                  <p class="center">
+                        <img class="MainTable" src="Table1.png" width="80%">
+                    </p>
+<!--                     <p class="center">
+                        <img class="table1" src="Table1.png" width="50%">
+                        <img class="table2" src="Table2.png" width="50%">
+                    </p> -->
+                  <h6>
+                      Samples of our synthetic image-text-boxes.
+                    </h6>
+                  <p class="center">
+                        <img class="qualitative" src="Qualitative.png" width="80%">
+                    </p>
+                  <h6>
+                      Samples of our synthetic image-text-boxes generated at a higher synthetic purity level.
+                    </h6>
+                  <p class="center">
+                        <img class="qualitative-high" src="Qualitative-supp.png" width="80%">
+                    </p>
+                </div>
+                <div class="col s2 m2 l2"></div>
+               </div>
+
+<!--               <div class="image-row">
+                <p>
+                  <img src="qualitative_visual_grounding_supp.png" class="image-left">
+                  <img src="qualitative_self_consistency_supp.png" class="image-right">
+                </p>
+              </div>
+              <div class="image-row">
+                <p>
+                  <img src="qualitative_visual_grounding_main.png" class="image-left">
+                  <img src="qualitative_self_consistency_main.png" class="image-right">
+                </p>
+              </div> -->
+
+               <!-- //////////////////////////// -->
+
+               <div class="row">
+                <div class="col s2 m2 l2"></div>
+                <div class="col s8 m8 l8">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="divider"></div>
+                    <h6 class="center"><b>BibTeX</b></h6>
+                    <blockquote>
+                    <font face="Courier New">
+<!--                       @article{he2023improved, <br>
+                            &nbsp; &nbsp; title={Improved Visual Grounding through Self-Consistent Explanations}, <br>
+                            &nbsp; &nbsp; author={He, Ruozhen and Cascante-Bonilla, Paola and Yang, Ziyan and Berg, Alexander C and Ordonez, Vicente}, <br>
+                            &nbsp; &nbsp; journal={arXiv preprint arXiv:2312.04554}, <br>
+                            &nbsp; &nbsp; year={2023}
+                        } -->
+                      @article{he2024learning, <br>
+                        &nbsp; &nbsp; title={Learning from Models and Data for Visual Grounding}, <br>
+                        &nbsp; &nbsp; author={He, Ruozhen and Cascante-Bonilla, Paola and Yang, Ziyan and Berg, Alexander C and Ordonez, Vicente}, <br>
+                        &nbsp; &nbsp; journal={arXiv preprint arXiv:2403.13804}, <br>
+                        &nbsp; &nbsp; year={2024} <br>
+                      }
+                    </font>
+                    </blockquote>
+                </div>
+                <div class="col s2 m2 l2"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+</body>
+</html>
