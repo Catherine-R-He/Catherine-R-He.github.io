@@ -25,6 +25,8 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 <!-- # 🔥 News -->
 # News
+- \[*05/2025*\] I joined Amazon AWS AI as a research intern this summer.
+- \[*05/2025*\] I have been recognized as an [Outstanding Reviewer at CVPR 2025](https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee#all-outstanding-reviewer).
 - \[*08/2024-03/2025*\] I will serve as a reviewer for T-PAMI, IJCV, ICLR 2025, CVPR 2025, ICML 2025, ICCV 2025, and NeurIPS 2025.
 - \[*11/2024*\] I have been awarded the Ken Kennedy Institute 2024/25 Ken Kennedy-HPE Cray Graduate Fellowship.
 - \[*11/2024*\] I have been recognized as a [top reviewer at NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers).
@@ -40,6 +42,9 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 # Education
 - *2023 - Present*, PhD in Computer Science, Rice University.
 - *2019 - 2023*, BSc in Computer Science (First Class Honours), City University of Hong Kong.
+
+# Experience
+- *May 2025 - Present*, Research Intern, Amazon AWS AI.
 
 
 # Preprints
