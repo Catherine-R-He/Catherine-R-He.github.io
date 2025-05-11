@@ -43,9 +43,6 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 - *2023 - Present*, PhD in Computer Science, Rice University.
 - *2019 - 2023*, BSc in Computer Science (First Class Honours), City University of Hong Kong.
 
-# Experience
-- *May 2025 - Present*, Research Intern, Amazon AWS AI.
-
 
 # Preprints
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/SynGround-Teaser.png' alt="SynGround teaser" width=150px></div></div>
@@ -94,7 +91,8 @@ Proceedings of the AAAI Conference on Artificial Intelligence. **AAAI-23**. <fon
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
-
+# Work Experience
+- *May 2025 - Present*, Research Intern, Amazon AWS AI.
 
 # Service
 - CVPR 2024/2025, Reviewer
