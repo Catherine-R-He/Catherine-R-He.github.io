@@ -45,6 +45,14 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 
 # Preprints
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/GViT.png' alt="GViT teaser" width=150px></div></div>
+<div class='paper-box-text' markdown="1">
+**GViT: Representing Images as Gaussians for Visual Recognition** [[Paper]](https://arxiv.org/abs/2506.23532) <br />
+Jefferson Hernandez, **Ruozhen He**, Guha Balakrishnan, Alexander C. Berg, Vicente Ordonez<br />
+June, 2025. 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/SynGround-Teaser.png' alt="SynGround teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Learning from Synthetic Data for Visual Grounding** [[Paper]](https://arxiv.org/abs/2403.13804) [[Project Page]](https://catherine-r-he.github.io/SynGround/) <br />
