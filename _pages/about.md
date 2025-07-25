@@ -68,7 +68,7 @@ August, 2024.
 <div class='paper-box-text' markdown="1">
 **Learning from Synthetic Data for Visual Grounding** [[Paper]](https://arxiv.org/abs/2403.13804) [[Project Page]](https://catherine-r-he.github.io/SynGround/) <br />
 **Ruozhen He**, Ziyan Yang, Paola Cascante-Bonilla, Alexander C. Berg, Vicente Ordóñez <br />
-The British Machine Vision Conference. **BMVC 2025**
+The British Machine Vision Conference. **BMVC 2025**.
 </div>
 </div>
 
