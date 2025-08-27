@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a second-year computer science PhD student at [Vislang Lab](https://www.vislang.ai) in [Rice University](https://csweb.rice.edu/), advised by [Prof. Vicente Ordóñez](http://vicenteordonez.com). Prior to this, I obtained a BSc degree (First Class Honours) from [City University of Hong Kong](https://www.cityu.edu.hk/), where I had the privilege of working with [Prof. Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/) and [Prof. Antoni B. Chan](https://www.cs.cityu.edu.hk/~abchan/).
+I am a third-year computer science PhD student at [Vislang Lab](https://www.vislang.ai) in [Rice University](https://csweb.rice.edu/), advised by [Prof. Vicente Ordóñez](http://vicenteordonez.com). Prior to this, I obtained a BSc degree (First Class Honours) from [City University of Hong Kong](https://www.cityu.edu.hk/), where I had the privilege of working with [Prof. Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/) and [Prof. Antoni B. Chan](https://www.cs.cityu.edu.hk/~abchan/).
 
 My primary research interests lie in computer vision, with a focus on efficient algorithms under less or multimodal supervision. I am particularly interested in leveraging knowledge from neuroscience and cognitive psychology to develop concise, efficient, and interpretable algorithms achieving human-level intelligence in versatile tasks. 
 
