@@ -25,6 +25,7 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 <!-- # 🔥 News -->
 # News
+- \[*09/2025*\] I will serve as a reviewer for ICLR 2026 and CVPR 2026.
 - \[*07/2025*\] Our paper ["Learning from Synthetic Data for Visual Grounding"](https://catherine-r-he.github.io/SynGround/) is accepted to BMVC 2025.
 - \[*05/2025*\] I joined Amazon AWS AI as a research intern this summer.
 - \[*05/2025*\] I have been recognized as an [Outstanding Reviewer at CVPR 2025](https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee#all-outstanding-reviewer).
