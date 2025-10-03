@@ -49,7 +49,7 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 # Preprints
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/NoiseShift.png' alt="NoiseShift teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
-**NoiseShift: Resolution-Aware Noise Recalibration for Better Low-Resolution Image Generationn** [[Paper]](https://arxiv.org/abs/2510.02307) <br />
+**NoiseShift: Resolution-Aware Noise Recalibration for Better Low-Resolution Image Generation** [[Paper]](https://arxiv.org/abs/2510.02307) <br />
 **Ruozhen He**, Moayed Haji-Ali, Ziyan Yang, Vicente Ordonez<br />
 October, 2025. 
 </div>
