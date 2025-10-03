@@ -49,6 +49,14 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 # Preprints
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/GViT.png' alt="GViT teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
+**NoiseShift: Resolution-Aware Noise Recalibration for Better Low-Resolution Image Generationn** [[Paper]](https://arxiv.org/abs/2510.02307) <br />
+**Ruozhen He**, Moayed Haji-Ali, Ziyan Yang, Vicente Ordonez<br />
+Oct, 2025. 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/NoiseShift.png' alt="NoiseShift teaser" width=150px></div></div>
+<div class='paper-box-text' markdown="1">
 **GViT: Representing Images as Gaussians for Visual Recognition** [[Paper]](https://arxiv.org/abs/2506.23532) <br />
 Jefferson Hernandez, **Ruozhen He**, Guha Balakrishnan, Alexander C. Berg, Vicente Ordonez<br />
 June, 2025. 
@@ -106,11 +114,11 @@ Proceedings of the AAAI Conference on Artificial Intelligence. **AAAI-23**. <fon
 - *May 2025 - Present*, Research Intern, Amazon AWS AI.
 
 # Service
-- CVPR 2024/2025, Reviewer
+- CVPR 2024/2025/2026, Reviewer
 - ICCV 2025, Reviewer
 - ECCV 2024, Reviewer
 - NeurIPS 2023/2024/2025, Reviewer
-- ICLR 2024/2025, Reviewer
+- ICLR 2024/2025/2026, Reviewer
 - ICML 2024/2025, Reviewer
 - T-PAMI, Reviewer
 - IJCV, Reviewer
