@@ -19,9 +19,9 @@ redirect_from:
 
 I am a third-year computer science PhD student at [Vislang Lab](https://www.vislang.ai) in [Rice University](https://csweb.rice.edu/), advised by [Prof. Vicente Ordóñez](http://vicenteordonez.com). Prior to this, I obtained a BSc degree (First Class Honours) from [City University of Hong Kong](https://www.cityu.edu.hk/), where I had the privilege of working with [Prof. Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/) and [Prof. Antoni B. Chan](https://www.cs.cityu.edu.hk/~abchan/).
 
-My primary research interests lie in computer vision, with a focus on efficient algorithms under less or multimodal supervision. I am particularly interested in leveraging knowledge from neuroscience and cognitive psychology to develop concise, efficient, and interpretable algorithms achieving human-level intelligence in versatile tasks. 
+My primary research interests lie in computer vision, with a focus on efficient algorithms under less or multimodal supervision. During my PhD, I have worked on multimodal understanding and reasoning with RL, efficient generative models, and multi-agent systems.
 
-As a PhD student, I am always excited to collaborate with other researchers and explore new fields. Do not hesitate to reach out if you are interested!
+I will graduate in May 2027 and am actively looking for **full-time research roles** in industry. Do not hesitate to reach out if you would like to chat!
 
 <!-- # 🔥 News -->
 # News
@@ -42,9 +42,13 @@ As a PhD student, I am always excited to collaborate with other researchers and 
 
 <!-- # 📖 Educations -->
 # Education
-- *2023 - Present*, PhD in Computer Science, Rice University.
+- *2023 - 2027 (Expected)*, PhD in Computer Science, Rice University.
 - *2019 - 2023*, BSc in Computer Science (First Class Honours), City University of Hong Kong.
 
+
+# Work Experience
+- *Jan 2026 - Present*, Research Scientist Intern, ByteDance (NextGen Recommendation Team @ TikTok Data).
+- *May 2025 - Nov 2025*, Applied Scientist Intern, Amazon AWS AI Labs (Amazon Quick Science Team @ Agentic AI).
 
 # Preprints
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/NoiseShift.png' alt="NoiseShift teaser" width=150px></div></div>
@@ -110,13 +114,10 @@ Proceedings of the AAAI Conference on Artificial Intelligence. **AAAI-23**. <fon
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
-# Work Experience
-- *May 2025 - Present*, Research Intern, Amazon AWS AI.
-
 # Service
 - CVPR 2024/2025/2026, Reviewer
 - ICCV 2025, Reviewer
-- ECCV 2024, Reviewer
+- ECCV 2024/2026, Reviewer
 - NeurIPS 2023/2024/2025, Reviewer
 - ICLR 2024/2025/2026, Reviewer
 - ICML 2024/2025, Reviewer
