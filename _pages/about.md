@@ -25,9 +25,10 @@ I will graduate in May 2027 and am actively looking for **full-time research rol
 
 <!-- # 🔥 News -->
 # News
-- \[*09/2025*\] I will serve as a reviewer for ICLR 2026 and CVPR 2026.
+- \[*01/2026*\] I joined ByteDance as a research scientist intern.
+- \[*09/2025-01/2026*\] I will serve as a reviewer for ICLR 2026, CVPR 2026, and ECCV 2026.
 - \[*07/2025*\] Our paper ["Learning from Synthetic Data for Visual Grounding"](https://catherine-r-he.github.io/SynGround/) is accepted to BMVC 2025.
-- \[*05/2025*\] I joined Amazon AWS AI as a research intern this summer.
+- \[*05/2025*\] I joined Amazon AWS AI Labs as a research intern this summer.
 - \[*05/2025*\] I have been recognized as an [Outstanding Reviewer at CVPR 2025](https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee#all-outstanding-reviewer).
 - \[*08/2024-03/2025*\] I will serve as a reviewer for T-PAMI, IJCV, ICLR 2025, CVPR 2025, ICML 2025, ICCV 2025, and NeurIPS 2025.
 - \[*11/2024*\] I have been awarded the Ken Kennedy Institute 2024/25 Ken Kennedy-HPE Cray Graduate Fellowship.
@@ -37,7 +38,7 @@ I will graduate in May 2027 and am actively looking for **full-time research rol
 - \[*08/2023*\] I started my PhD study at VisLang Lab, Rice University.
 - \[*08/2023*\] I won the first runner-up prize in the IEEE (Hong Kong) Computational Intelligence Chapter Final Year Project Competition 2022-2023.
 - \[*06/2023*\] I graduated from City University of Hong Kong with First Class Honours.
-- \[*04/2023*\] I will serve as a reviewer for NeurIPS 2023.
+<!-- - \[*04/2023*\] I will serve as a reviewer for NeurIPS 2023.-->
 
 
 <!-- # 📖 Educations -->
