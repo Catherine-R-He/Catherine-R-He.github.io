@@ -55,7 +55,7 @@ I will graduate in May 2027 and am actively looking for **full-time research rol
 <div class='paper-box'><div class='paper-box-image'><div><img src='RSC/images/fig1_rsc_teaser.png' alt="RSC teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Beyond Referring Expressions: Scenario Comprehension Visual Grounding** [[Paper]](https://arxiv.org/abs/2510.02307) [[Project Page]](https://catherine-r-he.github.io/RSC/) <br />
-**Ruozhen He**, Nisarg A. Shah,  Qihua Dong,  Zilin Xiao,  Jaywon Koo,  Vicente Ordonez<br />
+**Ruozhen He**, Nisarg A. Shah, Qihua Dong, Zilin Xiao, Jaywon Koo, Vicente Ordonez<br />
 April, 2026. 
 </div>
 </div>
