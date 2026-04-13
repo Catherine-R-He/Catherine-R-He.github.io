@@ -86,6 +86,14 @@ August, 2024.
 
 <!-- # 📝 Publications  -->
 # Publications 
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/hierva_teaser.png' alt="HierVA teaser" width=150px></div></div>
+<div class='paper-box-text' markdown="1">
+**Hierarchical Visual Agent: Managing Contexts in Joint Image-Text Space for Advanced Chart Reasoning**  <br />
+Qihua Dong, **Ruozhen He**, Junwen Chen, Yizhou Wang, Xu Ma, Songyao Jiang, Yun Fu <br />
+The Findings of the Annual Meeting of the Association for Computational Linguistics. **ACL Findings, 2026**.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/SynGround-Teaser.png' alt="SynGround teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Learning from Synthetic Data for Visual Grounding** [[Paper]](https://arxiv.org/abs/2403.13804) [[Project Page]](https://catherine-r-he.github.io/SynGround/) <br />
