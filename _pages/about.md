@@ -21,7 +21,7 @@ I am a third-year computer science PhD student at [Vislang Lab](https://www.visl
 
 My primary research interests lie in computer vision, with a focus on efficient algorithms under less or multimodal supervision. During my PhD, I have worked on multimodal understanding and reasoning with RL, efficient generative models for images and videos, and multi-agent systems for UI navigation.
 
-I will graduate in May 2027 and am actively looking for **full-time research roles** in industry. Do not hesitate to reach out if you would like to chat!
+I will graduate in December 2026 and am actively looking for **full-time research roles** in industry. Do not hesitate to reach out if you would like to chat!
 
 <!-- # 🔥 News -->
 # News.
@@ -56,7 +56,7 @@ I will graduate in May 2027 and am actively looking for **full-time research rol
 # Preprints
 <div class='paper-box'><div class='paper-box-image'><div><img src='../EntityBench/static/figures/eval_tree_flat.png' alt="EntityBench Teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
-**EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation ** [[Paper]]() [[Code]](https://github.com/Catherine-R-He/EntityBench/) [[Project Page]](https://catherine-r-he.github.io/EntityBench/) <br />
+**EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation** [[Paper]]() [[Code]](https://github.com/Catherine-R-He/EntityBench/) [[Project Page]](https://catherine-r-he.github.io/EntityBench/) <br />
 **Ruozhen He**, Meng Wei, Ziyan Yang, Vicente Ordóñez <br />
 May, 2026.
 </div>
