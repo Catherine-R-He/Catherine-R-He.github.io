@@ -24,7 +24,8 @@ My primary research interests lie in computer vision, with a focus on efficient 
 I will graduate in May 2027 and am actively looking for **full-time research roles** in industry. Do not hesitate to reach out if you would like to chat!
 
 <!-- # 🔥 News -->
-# News
+# News.
+- \[*01/2026*\] I returned to Agentic AI @ AWS AI Labs as an applied scientist intern.
 - \[*01/2026*\] I joined ByteDance as a research scientist intern.
 - \[*09/2025-01/2026*\] I will serve as a reviewer for ICLR 2026, CVPR 2026, and ECCV 2026.
 - \[*07/2025*\] Our paper ["Learning from Synthetic Data for Visual Grounding"](https://catherine-r-he.github.io/SynGround/) is accepted to BMVC 2025.
@@ -48,10 +49,28 @@ I will graduate in May 2027 and am actively looking for **full-time research rol
 
 
 # Work Experience
-- *Jan 2026 - Present*, Research Scientist Intern, ByteDance (NextGen Recommendation Team @ TikTok Data).
+- *May 2026 - Present*, Applied Scientist Intern, Amazon AWS AI Labs (Amazon Quick Science Team @ Agentic AI).
+- *Jan 2026 - May 2026*, Research Scientist Intern, ByteDance (NextGen Recommendation Team).
 - *May 2025 - Nov 2025*, Applied Scientist Intern, Amazon AWS AI Labs (Amazon Quick Science Team @ Agentic AI).
 
 # Preprints
+<div class='paper-box'><div class='paper-box-image'><div><img src='../EntityBench/static/figures/eval_tree_flat.png' alt="EntityBench Teaser" width=150px></div></div>
+<div class='paper-box-text' markdown="1">
+**EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation ** [[Paper]]() [[Code]](https://github.com/Catherine-R-He/EntityBench/) [[Project Page]](https://catherine-r-he.github.io/EntityBench/) <br />
+**Ruozhen He**, Meng Wei, Ziyan Yang, Vicente Ordóñez <br />
+May, 2026.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='../images/hypoexplore_teaser.png' alt="HypoExplore teaser" width=150px></div></div>
+<div class='paper-box-text' markdown="1">
+**Agentic Discovery with Active Hypothesis Exploration for Visual Recognition** [[Paper]](https://arxiv.org/pdf/2604.12999) <br />
+Jaywon Koo, Jefferson Hernandez, **Ruozhen He**, Hanjie Chen, Chen Wei, Vicente Ordonez<br />
+April, 2026. 
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><img src='RSC/images/fig1_rsc_teaser.png' alt="RSC teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Beyond Referring Expressions: Scenario Comprehension Visual Grounding** [[Paper]](https://arxiv.org/abs/2604.02323) [[Project Page]](https://catherine-r-he.github.io/RSC/) <br />
@@ -88,7 +107,7 @@ August, 2024.
 # Publications 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/hierva_teaser.png' alt="HierVA teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
-**Hierarchical Visual Agent: Managing Contexts in Joint Image-Text Space for Advanced Chart Reasoning**  <br />
+**Hierarchical Visual Agent: Managing Contexts in Joint Image-Text Space for Advanced Chart Reasoning** [[Paper]](https://arxiv.org/pdf/2605.04304) <br />
 Qihua Dong, **Ruozhen He**, Junwen Chen, Yizhou Wang, Xu Ma, Songyao Jiang, Yun Fu <br />
 The Findings of the Annual Meeting of the Association for Computational Linguistics. **ACL Findings, 2026**.
 </div>
