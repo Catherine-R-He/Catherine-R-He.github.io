@@ -54,6 +54,7 @@ I will graduate in December 2026 and am actively looking for **full-time researc
 - *May 2025 - Nov 2025*, Applied Scientist Intern, Amazon AWS AI Labs (Amazon Quick Science Team @ Agentic AI).
 
 # Preprints
+
 <div class='paper-box'><div class='paper-box-image'><div><img src='../EntityBench/static/figures/eval_tree_flat.png' alt="EntityBench Teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation** [[Paper]]() [[Code]](https://github.com/Catherine-R-He/EntityBench/) [[Project Page]](https://catherine-r-he.github.io/EntityBench/) <br />
@@ -105,6 +106,7 @@ August, 2024.
 
 <!-- # 📝 Publications  -->
 # Publications 
+
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/hierva_teaser.png' alt="HierVA teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
 **Hierarchical Visual Agent: Managing Contexts in Joint Image-Text Space for Advanced Chart Reasoning** [[Paper]](https://arxiv.org/pdf/2605.04304) <br />
