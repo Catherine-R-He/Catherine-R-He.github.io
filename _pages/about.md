@@ -19,15 +19,15 @@ redirect_from:
 
 I am a third-year computer science PhD student at [Vislang Lab](https://www.vislang.ai), [Rice University](https://csweb.rice.edu/), advised by [Prof. Vicente Ordóñez](http://vicenteordonez.com). Prior to this, I obtained a BSc degree (First Class Honours) from [City University of Hong Kong](https://www.cityu.edu.hk/), where I had the privilege of working with [Prof. Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/) and [Prof. Antoni B. Chan](https://www.cs.cityu.edu.hk/~abchan/).
 
-My primary research interests lie in computer vision, with a focus on efficient algorithms under less or multimodal supervision. During my PhD, I have worked on multimodal understanding and reasoning with RL, efficient generative models for images and videos, and multi-agent systems for UI navigation.
+My primary research interests lie in computer vision, with a focus on efficient algorithms under limited or multimodal supervision. During my PhD, I have worked on multimodal understanding and reasoning with RL, efficient generative models for images and videos, and multi-agent systems for UI navigation and automated research. 
 
-I will graduate in December 2026 and am actively looking for **full-time research roles** in industry. Do not hesitate to reach out if you would like to chat!
+I am expecting to graduate in **December 2026** and am actively looking for **full-time research roles** in industry. Do not hesitate to reach out if you would like to chat!
 
 <!-- # 🔥 News -->
 # News.
-- \[*01/2026*\] I returned to Agentic AI @ AWS AI Labs as an applied scientist intern.
+- \[*05/2026*\] I returned to Agentic AI @ AWS AI Labs as an applied scientist intern.
 - \[*01/2026*\] I joined ByteDance as a research scientist intern.
-- \[*09/2025-01/2026*\] I will serve as a reviewer for ICLR 2026, CVPR 2026, and ECCV 2026.
+- \[*09/2025-01/2026*\] I will serve as a reviewer for IJCV, ICLR 2026, CVPR 2026, and ECCV 2026.
 - \[*07/2025*\] Our paper ["Learning from Synthetic Data for Visual Grounding"](https://catherine-r-he.github.io/SynGround/) is accepted to BMVC 2025.
 - \[*05/2025*\] I joined Amazon AWS AI Labs as a research intern this summer.
 - \[*05/2025*\] I have been recognized as an [Outstanding Reviewer at CVPR 2025](https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee#all-outstanding-reviewer).
@@ -44,7 +44,7 @@ I will graduate in December 2026 and am actively looking for **full-time researc
 
 <!-- # 📖 Educations -->
 # Education
-- *2023 - 2027 (Expected)*, PhD in Computer Science, Rice University.
+- *2023 - 2026 (Expected)*, PhD in Computer Science, Rice University.
 - *2019 - 2023*, BSc in Computer Science (First Class Honours), City University of Hong Kong.
 
 
@@ -148,23 +148,15 @@ Proceedings of the AAAI Conference on Artificial Intelligence. **AAAI-23**. <fon
 </div>
 </div>
 
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+
 
 # Service
 - CVPR 2024/2025/2026, Reviewer
 - ICCV 2025, Reviewer
 - ECCV 2024/2026, Reviewer
-- NeurIPS 2023/2024/2025, Reviewer
+- NeurIPS 2023/2024/2025/2026, Reviewer
 - ICLR 2024/2025/2026, Reviewer
 - ICML 2024/2025, Reviewer
 - T-PAMI, Reviewer
 - IJCV, Reviewer
 
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
-<!-- 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
