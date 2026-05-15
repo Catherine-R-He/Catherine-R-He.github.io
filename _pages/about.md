@@ -57,7 +57,7 @@ I am expecting to graduate in **December 2026** and am actively looking for **fu
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='../EntityBench/static/figures/eval_tree_flat.png' alt="EntityBench Teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
-**EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation** [[Paper]]() [[Code]](https://github.com/Catherine-R-He/EntityBench/) [[Project Page]](https://catherine-r-he.github.io/EntityBench/) <br />
+**EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation** [[Paper]](https://arxiv.org/abs/2605.15199) [[Code]](https://github.com/Catherine-R-He/EntityBench/) [[Project Page]](https://catherine-r-he.github.io/EntityBench/) <br />
 **Ruozhen He**, Meng Wei, Ziyan Yang, Vicente Ordóñez <br />
 May, 2026.
 </div>
