@@ -24,7 +24,7 @@ During my PhD, I have worked on multimodal understanding and reasoning, AI agent
 I am expecting to graduate in **December 2026** and am actively looking for **full-time research roles** in industry. Do not hesitate to reach out if you would like to chat!
 
 <!-- # 🔥 News -->
-# News.
+# News
 - \[*05/2026*\] I returned to Agentic AI @ AWS AI Labs as an applied scientist intern.
 - \[*01/2026*\] I joined ByteDance as a research scientist intern.
 - \[*09/2025-01/2026*\] I will serve as a reviewer for IJCV, ICLR 2026, CVPR 2026, and ECCV 2026.
