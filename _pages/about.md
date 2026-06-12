@@ -19,7 +19,7 @@ redirect_from:
 
 I am a third-year computer science PhD student at [Vislang Lab](https://www.vislang.ai), [Rice University](https://csweb.rice.edu/), advised by [Prof. Vicente Ordóñez](http://vicenteordonez.com). Prior to this, I obtained a BSc degree (First Class Honours) from [City University of Hong Kong](https://www.cityu.edu.hk/), where I had the privilege of working with [Prof. Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/) and [Prof. Antoni B. Chan](https://www.cs.cityu.edu.hk/~abchan/).
 
-My primary research interests lie in computer vision, with a focus on efficient algorithms under limited or multimodal supervision. During my PhD, I have worked on multimodal understanding and reasoning with RL, efficient generative models for images and videos, and multi-agent systems for UI navigation and automated research. 
+During my PhD, I have worked on multimodal understanding and reasoning, AI agents, image and video generation, and large-scale data for SFT/RL/Evaluation in the industry.
 
 I am expecting to graduate in **December 2026** and am actively looking for **full-time research roles** in industry. Do not hesitate to reach out if you would like to chat!
 
@@ -50,7 +50,7 @@ I am expecting to graduate in **December 2026** and am actively looking for **fu
 
 # Work Experience
 - *May 2026 - Present*, Applied Scientist Intern, Amazon AWS AI Labs (Amazon Quick Science Team @ Agentic AI).
-- *Jan 2026 - May 2026*, Research Scientist Intern, ByteDance (NextGen Recommendation Team).
+- *Jan 2026 - May 2026*, Research Scientist Intern, ByteDance (NextGen Recommendation Team; worked with ByteDance Seed).
 - *May 2025 - Nov 2025*, Applied Scientist Intern, Amazon AWS AI Labs (Amazon Quick Science Team @ Agentic AI).
 
 # Preprints
