@@ -25,6 +25,7 @@ I am expecting to graduate in **December 2026** and am actively looking for **fu
 
 <!-- # 🔥 News -->
 # News
+- \[*08/2026*\] Our paper "Beyond Referring Comprehension: A Benchmark for Scenario-Based Visual Grounding" is accepted to EMNLP 2026 Main Conference and HypoExplore is accepted to the findings. 
 - \[*05/2026*\] I returned to Agentic AI @ AWS AI Labs as an applied scientist intern.
 - \[*01/2026*\] I joined ByteDance as a research scientist intern.
 - \[*09/2025-01/2026*\] I will serve as a reviewer for IJCV, ICLR 2026, CVPR 2026, and ECCV 2026.
@@ -63,22 +64,6 @@ May, 2026.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='../images/hypoexplore_teaser.png' alt="HypoExplore teaser" width=150px></div></div>
-<div class='paper-box-text' markdown="1">
-**Agentic Discovery with Active Hypothesis Exploration for Visual Recognition** [[Paper]](https://arxiv.org/pdf/2604.12999) <br />
-Jaywon Koo, Jefferson Hernandez, **Ruozhen He**, Hanjie Chen, Chen Wei, Vicente Ordonez<br />
-April, 2026. 
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='RSC/images/fig1_rsc_teaser.png' alt="RSC teaser" width=150px></div></div>
-<div class='paper-box-text' markdown="1">
-**Beyond Referring Expressions: Scenario Comprehension Visual Grounding** [[Paper]](https://arxiv.org/abs/2604.02323) [[Project Page]](https://catherine-r-he.github.io/RSC/) <br />
-**Ruozhen He**, Nisarg A. Shah, Qihua Dong, Zilin Xiao, Jaywon Koo, Vicente Ordonez<br />
-April, 2026. 
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/NoiseShift.png' alt="NoiseShift teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
@@ -106,6 +91,22 @@ August, 2024.
 
 <!-- # 📝 Publications  -->
 # Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='RSC/images/fig1_rsc_teaser.png' alt="RSC teaser" width=150px></div></div>
+<div class='paper-box-text' markdown="1">
+**Beyond Referring Expressions: Scenario Comprehension Visual Grounding** [[Paper]](https://arxiv.org/abs/2604.02323) [[Project Page]](https://catherine-r-he.github.io/RSC/) <br />
+**Ruozhen He**, Nisarg A. Shah, Qihua Dong, Zilin Xiao, Jaywon Koo, Vicente Ordonez<br />
+The 2026 Conference on Empirical Methods in Natural Language Processing. **EMNLP 2026**. 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='../images/hypoexplore_teaser.png' alt="HypoExplore teaser" width=150px></div></div>
+<div class='paper-box-text' markdown="1">
+**Agentic Discovery with Active Hypothesis Exploration for Visual Recognition** [[Paper]](https://arxiv.org/pdf/2604.12999) <br />
+Jaywon Koo, Jefferson Hernandez, **Ruozhen He**, Hanjie Chen, Chen Wei, Vicente Ordonez<br />
+The 2026 Conference on Empirical Methods in Natural Language Processing, Findings. **EMNLP Findings, 2026**. 
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/hierva_teaser.png' alt="HierVA teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
