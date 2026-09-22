@@ -112,7 +112,7 @@ The 2026 Conference on Empirical Methods in Natural Language Processing, Finding
 <div class='paper-box-text' markdown="1">
 **Hierarchical Visual Agent: Managing Contexts in Joint Image-Text Space for Advanced Chart Reasoning** [[Paper]](https://arxiv.org/pdf/2605.04304) <br />
 Qihua Dong, **Ruozhen He**, Junwen Chen, Yizhou Wang, Xu Ma, Songyao Jiang, Yun Fu <br />
-The Findings of the Annual Meeting of the Association for Computational Linguistics. **ACL Findings, 2026**.
+Findings of the Association for Computational Linguistics: ACL 2026. **ACL Findings, 2026**.
 </div>
 </div>
 
