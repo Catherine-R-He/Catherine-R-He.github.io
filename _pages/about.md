@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a third-year computer science PhD student at [Vislang Lab](https://www.vislang.ai), [Rice University](https://csweb.rice.edu/), advised by [Prof. Vicente Ordóñez](http://vicenteordonez.com). Prior to this, I obtained a BSc degree (First Class Honours) from [City University of Hong Kong](https://www.cityu.edu.hk/), where I had the privilege of working with [Prof. Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/) and [Prof. Antoni B. Chan](https://www.cs.cityu.edu.hk/~abchan/).
+I am a computer science PhD candidate at [Vislang Lab](https://www.vislang.ai), [Rice University](https://csweb.rice.edu/), advised by [Prof. Vicente Ordóñez](http://vicenteordonez.com). Prior to this, I obtained a BSc degree (First Class Honours) from [City University of Hong Kong](https://www.cityu.edu.hk/), where I had the privilege of working with [Prof. Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/) and [Prof. Antoni B. Chan](https://www.cs.cityu.edu.hk/~abchan/).
 
 During my PhD, I have worked on multimodal understanding and reasoning, AI agents, image and video generation, and large-scale data for SFT/RL/Evaluation in the industry.
 
@@ -25,6 +25,7 @@ I am expecting to graduate in **December 2026** and am actively looking for **fu
 
 <!-- # 🔥 News -->
 # News
+- \[*09/2026*\] Our paper "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation" is accepted to NeurIPS 2026. 
 - \[*08/2026*\] Our paper "Beyond Referring Comprehension: A Benchmark for Scenario-Based Visual Grounding" is accepted to EMNLP 2026 Main Conference and HypoExplore is accepted to the findings. 
 - \[*05/2026*\] I returned to Agentic AI @ AWS AI Labs as an applied scientist intern.
 - \[*01/2026*\] I joined ByteDance as a research scientist intern.
@@ -50,19 +51,11 @@ I am expecting to graduate in **December 2026** and am actively looking for **fu
 
 
 # Work Experience
-- *May 2026 - Present*, Applied Scientist Intern, Amazon AWS AI Labs (Amazon Quick Science Team @ Agentic AI).
+- *May 2026 - Aug 2026*, Applied Scientist Intern, Amazon AWS AI Labs (Amazon Quick Science Team @ Agentic AI).
 - *Jan 2026 - May 2026*, Research Scientist Intern, ByteDance (NextGen Recommendation Team; worked with ByteDance Seed).
 - *May 2025 - Nov 2025*, Applied Scientist Intern, Amazon AWS AI Labs (Amazon Quick Science Team @ Agentic AI).
 
 # Preprints
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='../EntityBench/static/figures/eval_tree_flat.png' alt="EntityBench Teaser" width=150px></div></div>
-<div class='paper-box-text' markdown="1">
-**EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation** [[Paper]](https://arxiv.org/abs/2605.15199) [[Code]](https://github.com/Catherine-R-He/EntityBench/) [[Project Page]](https://catherine-r-he.github.io/EntityBench/) <br />
-**Ruozhen He**, Meng Wei, Ziyan Yang, Vicente Ordóñez <br />
-May, 2026.
-</div>
-</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/NoiseShift.png' alt="NoiseShift teaser" width=150px></div></div>
@@ -91,6 +84,14 @@ August, 2024.
 
 <!-- # 📝 Publications  -->
 # Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='../EntityBench/static/figures/eval_tree_flat.png' alt="EntityBench Teaser" width=150px></div></div>
+<div class='paper-box-text' markdown="1">
+**EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation** [[Paper]](https://arxiv.org/abs/2605.15199) [[Code]](https://github.com/Catherine-R-He/EntityBench/) [[Project Page]](https://catherine-r-he.github.io/EntityBench/) <br />
+**Ruozhen He**, Meng Wei, Ziyan Yang, Vicente Ordóñez <br />
+The Fortieth Annual Conference on Neural Information Processing Systems. **NeurIPS 2026**.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='RSC/images/fig1_rsc_teaser.png' alt="RSC teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
