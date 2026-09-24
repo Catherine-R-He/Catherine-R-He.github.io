@@ -29,7 +29,7 @@ I am expecting to graduate in **December 2026** and am actively looking for **fu
 - \[*08/2026*\] Our paper "Beyond Referring Comprehension: A Benchmark for Scenario-Based Visual Grounding" is accepted to EMNLP 2026 Main Conference and HypoExplore is accepted to the findings. 
 - \[*05/2026*\] I returned to Agentic AI @ AWS AI Labs as an applied scientist intern.
 - \[*01/2026*\] I joined ByteDance as a research scientist intern.
-- \[*09/2025-01/2026*\] I will serve as a reviewer for IJCV, ICLR 2026, CVPR 2026, and ECCV 2026.
+- \[*09/2025-01/2026*\] I will serve as a reviewer for IJCV, ICLR 2026, CVPR 2026, ECCV 2026, and NeurIPS 2026.
 - \[*07/2025*\] Our paper ["Learning from Synthetic Data for Visual Grounding"](https://catherine-r-he.github.io/SynGround/) is accepted to BMVC 2025.
 - \[*05/2025*\] I joined Amazon AWS AI Labs as a research intern this summer.
 - \[*05/2025*\] I have been recognized as an [Outstanding Reviewer at CVPR 2025](https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee#all-outstanding-reviewer).
