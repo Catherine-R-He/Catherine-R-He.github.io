@@ -95,7 +95,7 @@ The Fortieth Annual Conference on Neural Information Processing Systems. **NeurI
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='RSC/images/fig1_rsc_teaser.png' alt="RSC teaser" width=150px></div></div>
 <div class='paper-box-text' markdown="1">
-**Beyond Referring Expressions: Scenario Comprehension Visual Grounding** [[Paper]](https://arxiv.org/abs/2604.02323) [[Project Page]](https://catherine-r-he.github.io/RSC/) <br />
+**Beyond Referring Expressions: Scenario Comprehension Visual Grounding** [[Paper]](https://arxiv.org/abs/2604.02323) [[Cide]](https://github.com/Catherine-R-He/RSC) [[Project Page]](https://catherine-r-he.github.io/RSC/) <br />
 **Ruozhen He**, Nisarg A. Shah, Qihua Dong, Zilin Xiao, Jaywon Koo, Vicente Ordonez<br />
 The 2026 Conference on Empirical Methods in Natural Language Processing. **EMNLP 2026**. 
 </div>
