@@ -19,7 +19,7 @@ redirect_from:
 
 I am an incoming Member of Technical Staff on the World Models team at [Dyna Robotics](https://www.dyna.co). My research spans multimodal understanding and reasoning, AI agents, and image and video generation.
 
-In industry, I have interned at [AWS Agentic AI](https://aws.amazon.com/ai/), working on post-training for agentic models in production, and at [ByteDance](https://www.bytedance.com/), working on [entity-consistent long-form video generation](https://catherine-r-he.github.io/EntityBench/).
+In industry, I have interned at AWS Agentic AI, working on post-training for agentic models in production, and at ByteDance, working on entity-consistent long video generation.
 
 I earned my PhD in Computer Science from [Rice University](https://csweb.rice.edu/), advised by [Prof. Vicente Ordóñez](http://vicenteordonez.com). Before that, I received a BSc (First Class Honours) from [City University of Hong Kong](https://www.cityu.edu.hk/), where I had the privilege of working with [Prof. Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/) and [Prof. Antoni B. Chan](https://www.cs.cityu.edu.hk/~abchan/).
 
