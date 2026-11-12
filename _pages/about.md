@@ -25,7 +25,7 @@ I earned my PhD in Computer Science from [Rice University](https://csweb.rice.ed
 
 <!-- # 🔥 News -->
 # News
-- \[*11/2026*\] I successfully defended my PhD thesis, "Toward Interactive World Models: Multimodality, Generation, and Interaction."
+- \[*11/2026*\] I successfully defended my PhD thesis, "Toward Interactive World Models: Multimodality, Generation, and Interaction".
 - \[*09/2026*\] Our paper "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation" is accepted to NeurIPS 2026. 
 - \[*08/2026*\] Our paper "Beyond Referring Comprehension: A Benchmark for Scenario-Based Visual Grounding" is accepted to EMNLP 2026 Main Conference and HypoExplore is accepted to the findings. 
 - \[*05/2026*\] I returned to Agentic AI @ AWS AI Labs as an applied scientist intern.
