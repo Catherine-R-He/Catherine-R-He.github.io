@@ -17,14 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a computer science PhD candidate at [Vislang Lab](https://www.vislang.ai), [Rice University](https://csweb.rice.edu/), advised by [Prof. Vicente Ordóñez](http://vicenteordonez.com). Prior to this, I obtained a BSc degree (First Class Honours) from [City University of Hong Kong](https://www.cityu.edu.hk/), where I had the privilege of working with [Prof. Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/) and [Prof. Antoni B. Chan](https://www.cs.cityu.edu.hk/~abchan/).
+I am an incoming Member of Technical Staff on the World Models team at [Dyna Robotics](https://www.dyna.co). My research spans multimodal understanding and reasoning, AI agents, and image and video generation.
 
-During my PhD, I have worked on multimodal understanding and reasoning, AI agents, image and video generation, and large-scale data for SFT/RL/Evaluation in the industry.
+In industry, I have interned at [AWS Agentic AI](https://aws.amazon.com/ai/), working on post-training for agentic models in production, and at [ByteDance](https://www.bytedance.com/), working on [entity-consistent long-form video generation](https://catherine-r-he.github.io/EntityBench/).
 
-I am expecting to graduate in **December 2026** and am actively looking for **full-time research roles** in industry. Do not hesitate to reach out if you would like to chat!
+I earned my PhD in Computer Science from [Rice University](https://csweb.rice.edu/), advised by [Prof. Vicente Ordóñez](http://vicenteordonez.com). Before that, I received a BSc (First Class Honours) from [City University of Hong Kong](https://www.cityu.edu.hk/), where I had the privilege of working with [Prof. Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/) and [Prof. Antoni B. Chan](https://www.cs.cityu.edu.hk/~abchan/).
 
 <!-- # 🔥 News -->
 # News
+- \[*11/2026*\] I successfully defended my PhD thesis, "Toward Interactive World Models: Multimodality, Generation, and Interaction."
 - \[*09/2026*\] Our paper "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation" is accepted to NeurIPS 2026. 
 - \[*08/2026*\] Our paper "Beyond Referring Comprehension: A Benchmark for Scenario-Based Visual Grounding" is accepted to EMNLP 2026 Main Conference and HypoExplore is accepted to the findings. 
 - \[*05/2026*\] I returned to Agentic AI @ AWS AI Labs as an applied scientist intern.
@@ -46,7 +47,7 @@ I am expecting to graduate in **December 2026** and am actively looking for **fu
 
 <!-- # 📖 Educations -->
 # Education
-- *2023 - 2026 (Expected)*, PhD in Computer Science, Rice University.
+- *2023 - 2026*, PhD in Computer Science, Rice University.
 - *2019 - 2023*, BSc in Computer Science (First Class Honours), City University of Hong Kong.
 
 
